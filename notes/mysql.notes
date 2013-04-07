@@ -1,0 +1,26 @@
+http://www.pantz.org/software/mysql/mysqlcommands.html
+
+mysql -u root -p (same google)
+show databases;
+
+
+grant all privileges on databasename.* to tmackall@localhost;
+flush privileges;
+llow the user "bob" to connect to the server from localhost using the password "passwd". Login as root. Switch to the MySQL db. Give privs. Update privs.
+
+# mysql -u root -p
+mysql> use mysql;
+mysql> grant usage on *.* to bob@localhost identified by 'passwd';
+mysql> flush privileges;
+
+Give user privilages for a db. Login as root. Switch to the MySQL db. Grant privs. Update privs.
+
+# mysql -u root -p
+mysql> use mysql;
+mysql> INSERT INTO db (Host,Db,User,Select_priv,Insert_priv,Update_priv,Delete_priv,Create_priv,Drop_priv) VALUES ('%','databasename','username','Y','Y','Y','Y','Y','N');
+mysql> flush privileges; 
+
+or 
+
+mysql> grant all privileges on databasename.* to username@localhost;
+mysql> flush privileges;
