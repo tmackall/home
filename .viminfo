@@ -11,12 +11,19 @@
 ~MSle0/.vim
 
 # Last Substitute Search Pattern:
-~MSle0~&^
+~MSle0~&^\t*
 
 # Last Substitute String:
-$rm -rf 
+$
 
 # Command Line History (newest to oldest):
+:%s/^\t*//
+:%s/^\T*//
+:1,81d
+:82,$s/# *//
+:%s/^#/rm -rf/
+:1,42d
+:%s/^/#/
 :%s/^/rm -rf /
 :1,9d
 :%s/rm /rm -rf /
@@ -374,13 +381,16 @@ $rm -rf
 :sp t.sh
 
 # Search String History (newest to oldest):
+? ^\t*
+? ^\T*
+? # *
+? ^#
 ? ^
 ?/.vim
 ? rm 
 ? ^rm 
 ?/vimr/
 ?/vimrcs
-? ^#
 ? \s\+$
 ?/dddd
 ?/^
@@ -1071,9 +1081,6 @@ $rm -rf
 ?/                     ringStationControlEntry."
 ?/                     ringStationTable associated with this
 ?/                     "The number of active ringStationEntries in the
-?/         ringStationControlActiveStations OBJECT-TYPE
-?/             ::= { ringStationControlEntry 2 }
-?/                     "The number of ringStationEntries in the
 
 # Expression History (newest to oldest):
 =<SNR>26_SuperTab('n')
@@ -1090,65 +1097,142 @@ $rm -rf
 # Registers:
 "0	LINE	0
 	0 */1 * * * source ~/.bashrc;~/bin/cameras_ip/camera_capture.sh ss02 3600
-""1	LINE	0
-	rm -rf ./develop/.gitignore
+""1	CHAR	0
+	.ICEauthority
+		.Xauthority
+		.bash_history
+		.bash_logout
+		.bashrc
+		.cache/
+		.config/
+		.dbus/
+		.dmrc
+		.fontconfig/
+		.gconf/
+		.gitaliases
+		.gksu.lock
+		.gnome2/
+		.gtk-bookmarks
+		.lesshst
+		.local/
+		.macromedia/
+		.mission-control/
+		.mplayer/
+		.muttrcbck
+		.mysql_history
+		.pip/
+		.profile
+		.pulse-cookie
+		.pulse/
+		.pylint.d/
+		.selected_editor
+		.ssh/
+		.xsession-errors
+		apache/
+		bin/
+		develop/
+		django/
+		django_dev/
+		ftp/
+		
 "2	LINE	0
-	./.vim/autoload/.svn
-	./.vim/.netrwhist
+	
 "3	LINE	0
-	./.profile
+	#
+	#01-16-12.txt
+	#amix-vimrc-5731b3a/
+	#apache/
+	#.bash_history
+	#.bash_logout
+	#.bashrc
+	#bfs*.bin
+	#bin/
+	#.cache/
+	#CoffeeScript
+	#Colors
+	#.config/
+	#.dbus/
+	#develop/
+	#django/
+	#django_dev/
+	#django.log
+	#.dmrc
+	#Editing
+	#examples.desktop
+	#.fontconfig/
+	#ftp/
+	#.gconf/
+	#General
+	#.gitaliases
+	#.gksu.lock
+	#.gnome2/
+	#.gtk-bookmarks
+	#Helper
+	#home.tar
+	#.ICEauthority
+	#id_dsa.pub
+	#JavaScript
+	#.lesshst
+	#License.txt
+	#Load
+	#.local/
+	#.macromedia/
+	#minicom.log
+	#.mission-control/
+	#Moving
+	#.mozilla/
+	#.mplayer
+	#.mplayer/
+	#.muttrcbck
+	#.mysql_history
+	#nohup.out
+	#.pip
+	#.pip/
 "4	LINE	0
-	./django_dev/.git
+	no changes added to commit (use "git add" and/or "git commit -a")
 "5	LINE	0
-	./django_dev/.gitignore
+	no changes added to commit (use "git add" and/or "git commit -a")
 "6	LINE	0
-	./.mission-control
+	#	temp/
 "7	LINE	0
-	./.git
+	#	static/
 "8	LINE	0
-	./.bash_history
+	#	t.sh
 "9	LINE	0
-	./.gtk-bookmarks
+	#	id_dsa.pub
 "-	CHAR	0
 	t r
 
 # File marks:
-'0  3  0  ~/t.sh
-'1  15  0  ~/.vim_runtime/t.sh
-'2  66  0  ~/.gitignore
+'0  37  0  ~/.gitignore
+'1  18  0  ~/t.sh
+'2  1  0  ~/.gitignore
 '3  1  0  ~/t.sh
-'4  68  0  ~/.gitignore
-'5  8  48  ~/bin/raspberry_setup.sh
-'6  8  20  ~/.ssh/authorized_keys2
-'7  6  23  ~/bin/raspberry_setup.sh
-'8  1  0  ~/raspberry_setup.sh
-'9  66  13  ~/.gitignore
+'4  15  0  ~/.vim_runtime/t.sh
+'5  1  0  ~/.gitignore
+'6  1  0  ~/t.sh
+'7  8  48  ~/bin/raspberry_setup.sh
+'8  8  20  ~/.ssh/authorized_keys2
+'9  6  23  ~/bin/raspberry_setup.sh
 
 # Jumplist (newest first):
--'  3  0  ~/t.sh
--'  12  0  ~/t.sh
+-'  37  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  18  0  ~/t.sh
 -'  1  0  ~/t.sh
 -'  15  0  ~/.vim_runtime/t.sh
 -'  1  0  ~/.vim_runtime/t.sh
--'  66  0  ~/.gitignore
--'  63  0  ~/.gitignore
--'  3  5  ~/.gitignore
--'  68  0  ~/.gitignore
--'  1  0  ~/.gitignore
 -'  8  48  ~/bin/raspberry_setup.sh
 -'  6  23  ~/bin/raspberry_setup.sh
 -'  8  20  ~/.ssh/authorized_keys2
 -'  1  7  ~/.ssh/authorized_keys2
 -'  4  25  ~/bin/raspberry_setup.sh
 -'  1  0  ~/raspberry_setup.sh
--'  67  0  ~/.gitignore
 -'  1  0  ~/bin/raspberry_setup.sh
 -'  21  67  /tmp/crontab.dRbLdE/crontab
 -'  1  0  /tmp/crontab.dRbLdE/crontab
 -'  32  14  ~/.gitconfig
 -'  23  0  ~/.gitconfig
--'  31  3  ~/.gitignore
--'  53  7  ~/.gitignore
 -'  9  19  ~/bin/cameras_ip/cameras.xml
 -'  52  22  ~/bin/cameras_ip/cameras.xml
 -'  45  30  ~/bin/cameras_ip/cameras.xml
@@ -1218,30 +1302,63 @@ $rm -rf
 -'  22  7  ~/develop/cameras_ip/camera_recording_check.py
 -'  21  4  ~/develop/cameras_ip/camera_recording_check.py
 -'  20  4  ~/develop/cameras_ip/camera_recording_check.py
--'  19  8  ~/develop/cameras_ip/camera_recording_check.py
--'  67  31  ~/develop/cameras_ip/camera_recording_check.py
--'  56  20  ~/develop/cameras_ip/camera_recording_check.py
 
 # Buffer list:
-%~/t.sh	3	0
+%~/.gitignore	37	0
 
 # History of marks within files (newest to oldest):
 
+> ~/.gitignore
+	"	37	0
+	.	1	0
+	+	1	7
+	+	1	3
+	+	1	0
+	+	1	7
+	+	1	3
+	+	1	10
+	+	1	6
+	+	1	13
+	+	1	7
+	+	1	8
+	+	1	8
+	+	1	7
+	+	1	5
+	+	1	0
+	+	1	30
+	+	1	0
+	+	1	1
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	38	0
+	+	1	0
+	+	1	1
+	+	1	0
+
 > ~/t.sh
-	"	3	0
-	.	9	0
+	"	18	0
+	.	19	0
 	+	1	0
 	+	1	0
 	+	1	0
 	+	1	0
-	+	9	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 	+	11	0
 	+	12	0
-	+	37	0
-	+	42	0
-	+	42	0
+	+	13	0
+	+	18	0
 	+	1	0
-	+	9	0
+	+	19	0
 
 > ~/.vim_runtime/t.sh
 	"	15	0
@@ -1249,30 +1366,6 @@ $rm -rf
 	+	1	0
 	+	5	0
 	+	1	0
-
-> ~/.gitignore
-	"	66	0
-	.	66	0
-	+	52	7
-	+	30	3
-	+	13	0
-	+	22	7
-	+	25	3
-	+	55	10
-	+	56	6
-	+	57	13
-	+	58	7
-	+	59	8
-	+	60	8
-	+	61	7
-	+	67	5
-	+	55	0
-	+	63	30
-	+	66	0
-	+	66	1
-	+	27	0
-	+	63	0
-	+	66	0
 
 > ~/bin/raspberry_setup.sh
 	"	8	48
