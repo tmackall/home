@@ -8,15 +8,17 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/.vim
+~MSle0/.vim
 
 # Last Substitute Search Pattern:
-~MSle0&rm 
+~MSle0~&^
 
 # Last Substitute String:
 $rm -rf 
 
 # Command Line History (newest to oldest):
+:%s/^/rm -rf /
+:1,9d
 :%s/rm /rm -rf /
 :%s/^/rm /
 :%s/^rm //
@@ -256,7 +258,6 @@ $rm -rf
 :9,11y
 :w ~/django_dev/mackallHouse/templates/audio/common.html
 :15,$d
-:1,9d
 :sp common.html
 :w common.html
 :20,24y
@@ -373,9 +374,9 @@ $rm -rf
 :sp t.sh
 
 # Search String History (newest to oldest):
+? ^
 ?/.vim
 ? rm 
-? ^
 ? ^rm 
 ?/vimr/
 ?/vimrcs
@@ -1090,43 +1091,47 @@ $rm -rf
 "0	LINE	0
 	0 */1 * * * source ~/.bashrc;~/bin/cameras_ip/camera_capture.sh ss02 3600
 ""1	LINE	0
-	.vim_mru_files
+	rm -rf ./develop/.gitignore
 "2	LINE	0
-	.viminfo
+	./.vim/autoload/.svn
+	./.vim/.netrwhist
 "3	LINE	0
-	.vim_runtime/temp_dirs/undodir*
+	./.profile
 "4	LINE	0
 	./django_dev/.git
 "5	LINE	0
-	./.git
+	./django_dev/.gitignore
 "6	LINE	0
-	./bin/.git
+	./.mission-control
 "7	LINE	0
-	./develop/.git
+	./.git
 "8	LINE	0
-	./django/.git
+	./.bash_history
 "9	LINE	0
-	.gitignore
+	./.gtk-bookmarks
 "-	CHAR	0
 	t r
 
 # File marks:
-'0  66  0  ~/.gitignore
-'1  7  0  ~/t.sh
-'2  68  0  ~/.gitignore
-'3  8  48  ~/bin/raspberry_setup.sh
-'4  8  20  ~/.ssh/authorized_keys2
-'5  6  23  ~/bin/raspberry_setup.sh
-'6  1  0  ~/raspberry_setup.sh
-'7  66  13  ~/.gitignore
-'8  63  29  ~/.gitignore
-'9  4  25  ~/bin/raspberry_setup.sh
+'0  3  0  ~/t.sh
+'1  15  0  ~/.vim_runtime/t.sh
+'2  66  0  ~/.gitignore
+'3  1  0  ~/t.sh
+'4  68  0  ~/.gitignore
+'5  8  48  ~/bin/raspberry_setup.sh
+'6  8  20  ~/.ssh/authorized_keys2
+'7  6  23  ~/bin/raspberry_setup.sh
+'8  1  0  ~/raspberry_setup.sh
+'9  66  13  ~/.gitignore
 
 # Jumplist (newest first):
+-'  3  0  ~/t.sh
+-'  12  0  ~/t.sh
+-'  1  0  ~/t.sh
+-'  15  0  ~/.vim_runtime/t.sh
+-'  1  0  ~/.vim_runtime/t.sh
 -'  66  0  ~/.gitignore
 -'  63  0  ~/.gitignore
--'  7  0  ~/t.sh
--'  1  0  ~/t.sh
 -'  3  5  ~/.gitignore
 -'  68  0  ~/.gitignore
 -'  1  0  ~/.gitignore
@@ -1216,13 +1221,34 @@ $rm -rf
 -'  19  8  ~/develop/cameras_ip/camera_recording_check.py
 -'  67  31  ~/develop/cameras_ip/camera_recording_check.py
 -'  56  20  ~/develop/cameras_ip/camera_recording_check.py
--'  54  34  ~/develop/cameras_ip/camera_recording_check.py
--'  55  16  ~/develop/cameras_ip/camera_recording_check.py
 
 # Buffer list:
-%~/.gitignore	66	0
+%~/t.sh	3	0
 
 # History of marks within files (newest to oldest):
+
+> ~/t.sh
+	"	3	0
+	.	9	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	9	0
+	+	11	0
+	+	12	0
+	+	37	0
+	+	42	0
+	+	42	0
+	+	1	0
+	+	9	0
+
+> ~/.vim_runtime/t.sh
+	"	15	0
+	.	1	0
+	+	1	0
+	+	5	0
+	+	1	0
 
 > ~/.gitignore
 	"	66	0
@@ -1247,14 +1273,6 @@ $rm -rf
 	+	27	0
 	+	63	0
 	+	66	0
-
-> ~/t.sh
-	"	7	0
-	.	1	0
-	+	1	0
-	+	3	0
-	+	8	0
-	+	1	0
 
 > ~/bin/raspberry_setup.sh
 	"	8	48
@@ -2789,11 +2807,3 @@ $rm -rf
 	^	1	5
 	.	1	4
 	+	1	4
-
-> ~/develop/webserv/celeryconfig.py
-	"	6	22
-	^	6	30
-	.	6	22
-	+	7	17
-	+	6	22
-	z	6	22

@@ -60,12 +60,9 @@ Spell
 .ssh
 static/
 temp/
-.vim_runtime/temp_dirs/undodir*
 test
 t.out
 t.sh
-.viminfo
-.vim_mru_files
 .Xauthority
 .xsession-errors
 .xsession-errors.old

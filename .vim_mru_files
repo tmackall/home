@@ -1,6 +1,7 @@
 # Most recently edited files in Vim (version 3.0)
-/home/tmackall/.gitignore
 /home/tmackall/t.sh
+/home/tmackall/.vim_runtime/t.sh
+/home/tmackall/.gitignore
 /home/tmackall/bin/raspberry_setup.sh
 /home/tmackall/.ssh/authorized_keys2
 /home/tmackall/.gitconfig
