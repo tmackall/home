@@ -8,21 +8,154 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/sam
+~MSle0~/dddd
 
 # Last Substitute Search Pattern:
-~MSle0~&^\t
+~MSle0&^
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
+:16,27y
+:schemecolor morning
+:setcolor morning
+:q
+:w
+:q!
+:10,12y
+:13,16y
+:17,29y
+:5,8y
+:sp camera_capture.sh
+:e camera_vlc_restart.sh
+:qa
+:sp ../libPython/cameras_info.py
+:42,68s/^/    /
+:e camera_recording_check.py
+:.e camera_recording_check.py
+:W
+:colorscheme twilight
+:colorscheme koelher
+:colorscheme morning
+:colorscheme github
+:87,97d
+:87,97
+:sp cameras_ip/camera_capture.sh
+:sp cameras_ip/cameras.xml
+:12,15y
+:13,24y
+:32,58d
+:sp camera_recording_check.py
+:40,$d
+:11,20d
+:6,12d
+:e cameras_info.py
+:w cameras_info.py
+:sp cameras.xml
+:34,44d
+:set nopaste
+:set paste
+:37, 44d
+:25,$s/^    //
+:37,41d
+:3,6d
+:6,10d
+:19,26d
+:3,12y
+:e ../camera_capture.sh
+:7,26d
+:%s/movie/camera/g
+:%s/movies/cameras/g
+:sp camera_file_check.py
+:47,50s/_first/_last/g
+:41,44y
+:39,58d
+:37,43d
+:71,$d
+:71,e ~/Desktop/
+:%s/disk_percent_free/disk_percent_used/g
+:sp ../../bin/libPython/libEmailTools.py
+:set unpaste
+:.set paste
+:unset paste
+:11,13d
+:14,19d
+:4,19d
+:s/\(i/\(info_fs/
+:s/i\[/info_fs\[/
+:sp disk_manage.py
+:29,38s/^/#/
+:29,$s/^/#/
+:22,26y
+:Lw
+:saet paste
+:8,12y
+:sp tasks.py
+:sp ../test_disk_storage.py
+:sp ~/.bashrc
+:sp ../proj/celery.py
+:22,$ d
+:22,e ~/Desktop/
+:sp ../proj/tasks.py
+:sp __init__.py
+:7,21d
+:sp celery.py
+:e tasks.py
+:ls
+:20,26y
+:e ../storage/celery.py
+:sp ../storage/tasks.py
+:19,35d
+:1,8d
+:e test.py
+:8,13y
+:qless ~/.vimrc
+:sp rsync-exclude.txt
+:sp ../bin/camera_capture.sh
+:set bg:black
+:e camera_panasonic.sh
+:w camera_panasonic.sh
+:e camera_capture.sh
+:3,$y
+:sp ../test.py
+:w tasks.py
+:sp test.py
+:2,$d
+:2d
+:2,e ~/Desktop/
+:set paster
+:%s/f_basement/f_c210a_01/g
+:%s/f_kitchen/f_511a_01/g
+:w!
+:colorscheme elflord
+:colorscheme ir_black
+:colorscheme ir_black.vim
+:q1
+:119,124y
+:sp ~/bin/testAVR.py
+:113,118y
+:sp monitor_system.sh
+:sp /etc/bind/named.conf.local
+:8,11s/^/\/\//
+:sp /home/tmackall/.bashrc
+:sp ~/.profile
+:sp ~tmackall/.bashrc
+:sp ~tmackall/.basjrc
+:31,$d
+:31,e ~/Desktop/
+:20,30s/^/    /
+:31,$s/^/#/
+:24,37y
+:9,22y
+:sp monitor_disks.sh
+:4,$s/\~/\~tmackall/
+:4,$s/\~~tmackall/
+:4,$s/~/~tmackall/
 :%s/^\t//
 :%s/^ //
 :%s/^\ *//
 :%s/^\# *//
-:q!
-:w
 :32,36d
 :%s/email2/email_msg_only/g
 :33,$d
@@ -30,14 +163,12 @@ $
 :%s/your-email/mackall.tom/g
 :%d
 :%s/develop/bin/
-:q
 :52,61s/^/#/
 :%s/echo/echo -e/
 :%s/\\r/\\n/g
 :%s/\\n/\\r/g
 :%s/\\n/\\r/
 :sp start_django_server.sh
-:qa
 :41,45y
 :41,45d
 :5,$d
@@ -72,8 +203,6 @@ $
 :15,$s/    //
 :nnoremap <F8> :setl noai nocin nosi inde=<CR>
 :set noai
-:W
-:sp monitor_system.sh
 :sp rsync.sh
 :134,178d
 :setl inde=
@@ -229,9 +358,81 @@ $
 :w DIFFSERV-DSCP-TC.txt
 :w INTEGRATED-SERVICES-MIB.txt
 :%s/Boilermaker/templeAve1/
-:q1
+:1,15d
+:sp ~/.vimrc
+:set pate
+:e .vim_runtime/my_configs.vim
+:sp .vim_runtime/vimrcs/plugins_config.vim
+:%s/cameras.xml/\$\{CAMERA_XML\}/g
+:e t.out
+:sp t.sh
 
 # Search String History (newest to oldest):
+? \s\+$
+?/dddd
+?/^
+? ^
+?/cam_regex
+??exit
+?/print
+??pri
+?/disk_
+?/  
+?/c
+? ^    
+?/cam_nam
+? movie
+? movies
+? _first
+?/CLEA/
+?/DIRS_
+?/rece/
+?/files_s
+?/_used/
+? disk_percent_free
+? \(i
+? i\[
+?/i
+?/gggg
+?/d
+? \Vtime\%#
+?/eeee
+?/PYTH
+?/onei
+?/edibuntu.org oneiric
+?/mint
+?/video
+?/disk2/camera_video_backups
+?/tab/
+?/home/tmackall/video/sno.       mpg
+?/from tasks import add
+?/511/
+?/max
+?/tgz_c/
+?/period
+?/max/
+?/samsu
+?/Num
+?/tar_f
+?/file_cn
+??ftp_dir
+?/basement
+? f_basement
+? f_kitchen
+?/romeo
+?/main
+?/man
+?/main off
+?/qual
+?/qua
+?/qual	
+?/“/etc/bind/zones/comtech.com.db”;
+?/master;
+?/“comtech.com” {
+?/PATH
+? \~
+? \~~tmackall
+? ~
 ? ^\t
 ? ^ 
 ? ^\ *
@@ -253,9 +454,7 @@ $
 ?/   set smtp_url = “smtp://stewieg@smtp.gmail.com:587/”
 ?/   set imap_pass = “stewieg123”
 ?/   set imap_user = “stewieg@gmail.com”
-? \s\+$
 ? develop
-? ^
 ? echo
 ? \\r
 ? \\n
@@ -306,7 +505,6 @@ $
 ? listFilers
 ? \"
 ? Main
-? ^    
 ?/dl\./
 ? audio_return_vals
 ?/map/
@@ -354,7 +552,6 @@ $
 ?/G
 ? setPortValue
 ?/set_port_v?
-?/print
 ?/get_oi
 ??snmp\.
 ??SNMP:w
@@ -871,1278 +1068,1723 @@ $
 ?/                     same value of the ifIndex object, defined in MIB-
 ?/                     object is the same interface as identified by the
 ?/                     interface identified by a particular value of this
-?/                     from which ringStation data is collected.  The
-?/             SYNTAX INTEGER (1..65535)
-?/         ringStationControlIfIndex OBJECT-TYPE
-?/             ringStationControlStatus           EntryStatus
-?/             ringStationControlOwner            OwnerString,
-?/             ringStationControlOrderChanges     Counter,
-?/             ringStationControlActiveMonitor    MacAddress,
-?/             ringStationControlBeaconNAUN       MacAddress,
-?/             ringStationControlBeaconSender     MacAddress,
-?/             ringStationControlRingState        INTEGER,
-?/             ringStationControlActiveStations   INTEGER,
-?/             ringStationControlTableSize        INTEGER,
-?/             ringStationControlIfIndex          INTEGER,
-?/         RingStationControlEntry ::= SEQUENCE {
-?/         -- might be named ringStationControlIfIndex.1
-?/         -- ringStationControlIfIndex object
-?/             ::= { ringStationControlTable 1 }
-?/             INDEX { ringStationControlIfIndex }
-?/                     collection of statistics about these stations."
-?/                     stations on a particular interface and the
-?/                     "A list of parameters that set up the discovery of
-?/             SYNTAX RingStationControlEntry
-?/         ringStationControlEntry OBJECT-TYPE
-?/             ::= { tokenRing 1 }
-?/                     "A list of ringStation table control entries."
-?/             SYNTAX SEQUENCE OF RingStationControlEntry
-?/         ringStationControlTable OBJECT-TYPE
-?/         -- longest time.
-?/         -- first free the stations that have been inactive for the
-?/         -- the probe free only inactive stations, and to
-?/         -- grow tight.  In such a situation, it is suggested that
-?/         -- probe may still need to free resources when resources
-?/         -- the number of stations attached to a ring is limited, a
-?/         -- those stations physically attached to the local ring and
-?/         -- Although the ringStationTable stores entries only for
-?/         -- The Token Ring Ring Station Group
-?/             ::= { tokenRingPHistoryEntry 18 }
-?/                     bits but including FCS octets."
-?/                     than 18000 octets in length, excluding framing
-?/                     during this sampling interval that were greater
-?/                     "The total number of good non-MAC frames received
-?/         tokenRingPHistoryDataPktsGreaterThan18000Octets OBJECT-TYPE
-?/             ::= { tokenRingPHistoryEntry 17 }
-?/                     excluding framing bits but including FCS octets."
-?/                     8192 and 18000 octets in length inclusive,
-?/                     during this sampling interval that were between
-?/         tokenRingPHistoryDataPkts8192to18000Octets OBJECT-TYPE
-?/             ::= { tokenRingPHistoryEntry 16 }
-?/                     4096 and 8191 octets in length inclusive,
-?/         tokenRingPHistoryDataPkts4096to8191Octets OBJECT-TYPE
-?/             ::= { tokenRingPHistoryEntry 15 }
-?/                     2048 and 4095 octets in length inclusive,
-?/         tokenRingPHistoryDataPkts2048to4095Octets OBJECT-TYPE
-?/             ::= { tokenRingPHistoryEntry 14 }
-?/                     1024 and 2047 octets in length inclusive,
-?/         tokenRingPHistoryDataPkts1024to2047Octets OBJECT-TYPE
-?/             ::= { tokenRingPHistoryEntry 13 }
-?/                     framing bits but including FCS octets."
-?/                     512 and 1023 octets in length inclusive, excluding
-?/         tokenRingPHistoryDataPkts512to1023Octets OBJECT-TYPE
-?/             ::= { tokenRingPHistoryEntry 12 }
 
 # Expression History (newest to oldest):
 =<SNR>25_SuperTab('n')
 
 # Input Line History (newest to oldest):
+@cam_nam
+@add.delay(4, 4
+@from tasks import add
 @~/ftp -maxdepth 1 -mmin -500 -name *jpg 
 
 # Input Line History (newest to oldest):
 
 # Registers:
 "0	LINE	0
-	    echo -e "$(pwd)\n" > $email_text_file
-""1	LINE	0
-	nothing added to commit but untracked files present (use "git add" to track)
+	 </camera>
+"1	LINE	0
+	echo $motion_string
+	exit
 "2	LINE	0
-	notes/
+	            motion_string="$motion_string $i"
 "3	LINE	0
-	notes.txt
+	            motion_string="$motion_string $i"
 "4	LINE	0
-	mediatomb.txt
+	echo $pid_to_kill
 "5	LINE	0
-	.vimrc
+	        echo "match"
 "6	LINE	0
-	nohup.out
+	echo $cam_id
 "7	LINE	0
-	minicom.log
+	echo $cam_id_re
 "8	LINE	0
-	home.tar
+	output=$(ps -eaf
 "9	LINE	0
-	apache/
-"-	CHAR	0
-	,Malamack@gmail.com"
+	        status_re = re.compile(file_re)
+""-	CHAR	0
+	basement
 
 # File marks:
-'0  51  0  ~/.gitignore
-'1  22  0  ~/.muttrc
-'2  98  15  ~/develop/detect_ftp_files.sh
-'3  7  0  ~/develop/detect_ftp_files.sh
-'4  115  0  ~/develop/detect_ftp_files.sh
-'5  29  18  /tmp/crontab.Re5j8e/crontab
-'6  16  0  ~/develop/detect_ftp_files.sh
-'7  40  15  ~/develop/detect_ftp_files.sh
-'8  8  15  ~/develop/detect_ftp_files.sh
-'9  38  23  ~/develop/detect_ftp_files.sh
+'0  30  3  ~/.gitignore
+'1  9  19  ~/bin/cameras_ip/cameras.xml
+'2  52  22  ~/bin/cameras_ip/cameras.xml
+'3  11  18  ~/bin/cameras_ip/camera_file_check.py
+'4  12  0  ~/.vimrc
+'5  45  30  ~/bin/cameras_ip/cameras.xml
+'6  32  30  ~/bin/cameras_ip/cameras.xml
+'7  9  16  ~/bin/file_find_large.sh
+'8  102  0  ~/develop/detect_ftp_files.sh
+'9  91  0  ~/bin/detect_ftp_files.sh
 
 # Jumplist (newest first):
--'  51  0  ~/.gitignore
--'  35  0  ~/.gitignore
--'  36  0  ~/.gitignore
--'  37  0  ~/.gitignore
--'  38  0  ~/.gitignore
--'  39  0  ~/.gitignore
--'  40  0  ~/.gitignore
--'  41  0  ~/.gitignore
--'  34  0  ~/.gitignore
--'  42  0  ~/.gitignore
--'  44  0  ~/.gitignore
--'  45  0  ~/.gitignore
--'  46  0  ~/.gitignore
--'  24  0  ~/.gitignore
--'  52  0  ~/.gitignore
--'  1  0  ~/.gitignore
--'  22  0  ~/.muttrc
--'  25  16  ~/.muttrc
--'  98  15  ~/develop/detect_ftp_files.sh
--'  7  0  ~/develop/detect_ftp_files.sh
--'  115  0  ~/develop/detect_ftp_files.sh
--'  99  18  ~/develop/detect_ftp_files.sh
--'  16  0  ~/develop/detect_ftp_files.sh
--'  29  18  /tmp/crontab.Re5j8e/crontab
--'  1  0  /tmp/crontab.Re5j8e/crontab
--'  40  15  ~/develop/detect_ftp_files.sh
--'  8  15  ~/develop/detect_ftp_files.sh
--'  37  23  ~/develop/detect_ftp_files.sh
--'  38  23  ~/develop/detect_ftp_files.sh
--'  10  25  ~/develop/detect_ftp_files.sh
--'  22  0  ~/develop/detect_ftp_files.sh
--'  105  46  ~/develop/detect_ftp_files.sh
--'  106  11  ~/develop/detect_ftp_files.sh
--'  36  22  ~/develop/detect_ftp_files.sh
--'  94  17  ~/develop/detect_ftp_files.sh
--'  101  7  ~/develop/detect_ftp_files.sh
--'  108  0  ~/develop/detect_ftp_files.sh
--'  9  38  ~/develop/detect_ftp_files.sh
--'  97  44  ~/develop/detect_ftp_files.sh
--'  96  23  ~/develop/detect_ftp_files.sh
--'  12  29  ~/develop/detect_ftp_files.sh
--'  24  0  /tmp/crontab.bQNum6/crontab
--'  1  0  /tmp/crontab.bQNum6/crontab
--'  29  48  /tmp/crontab.WUmXRq/crontab
--'  1  0  /tmp/crontab.WUmXRq/crontab
--'  88  10  ~/develop/detect_ftp_files.sh
--'  78  6  ~/develop/detect_ftp_files.sh
--'  20  43  ~/develop/detect_ftp_files.sh
+-'  30  3  ~/.gitignore
+-'  52  7  ~/.gitignore
+-'  9  19  ~/bin/cameras_ip/cameras.xml
+-'  52  22  ~/bin/cameras_ip/cameras.xml
+-'  45  30  ~/bin/cameras_ip/cameras.xml
+-'  11  18  ~/bin/cameras_ip/camera_file_check.py
+-'  26  0  ~/bin/cameras_ip/camera_file_check.py
+-'  12  0  ~/.vimrc
+-'  7  0  ~/.vimrc
+-'  32  30  ~/bin/cameras_ip/cameras.xml
+-'  1  0  ~/bin/cameras_ip/cameras.xml
+-'  9  16  ~/bin/file_find_large.sh
+-'  10  11  ~/bin/file_find_large.sh
+-'  1  0  ~/bin/file_find_large.sh
+-'  102  0  ~/develop/detect_ftp_files.sh
+-'  84  0  ~/develop/detect_ftp_files.sh
+-'  83  0  ~/develop/detect_ftp_files.sh
+-'  18  0  ~/develop/detect_ftp_files.sh
+-'  91  0  ~/bin/detect_ftp_files.sh
+-'  79  0  ~/bin/detect_ftp_files.sh
+-'  30  8  ~/bin/detect_ftp_files.sh
+-'  89  8  ~/bin/detect_ftp_files.sh
+-'  1  0  /tmp/crontab.5OBZXr/crontab
+-'  1  0  ~/bin/cameras_ip/camera_file_check.py
+-'  1  0  /tmp/crontab.qUmI9y/crontab
+-'  42  3  ~/develop/cameras_ip/camera_vlc_restart.sh
+-'  38  2  ~/develop/cameras_ip/camera_vlc_restart.sh
+-'  44  0  ~/develop/cameras_ip/camera_vlc_restart.sh
+-'  37  9  ~/develop/cameras_ip/camera_vlc_restart.sh
+-'  10  0  ~/develop/cameras_ip/camera_capture.sh
+-'  39  0  ~/develop/cameras_ip/camera_capture.sh
+-'  9  20  ~/develop/libPython/cameras_info.py
+-'  42  8  ~/develop/libPython/cameras_info.py
+-'  36  0  ~/develop/cameras_ip/camera_recording_check.py
+-'  69  12  ~/develop/cameras_ip/camera_recording_check.py
+-'  40  0  ~/develop/cameras_ip/camera_recording_check.py
+-'  70  42  ~/develop/cameras_ip/camera_recording_check.py
+-'  73  28  ~/develop/cameras_ip/camera_recording_check.py
+-'  45  7  ~/develop/cameras_ip/camera_recording_check.py
+-'  44  8  ~/develop/cameras_ip/camera_recording_check.py
+-'  43  40  ~/develop/libPython/cameras_info.py
+-'  40  18  ~/develop/cameras_ip/cameras.xml
+-'  1  1  ~/develop/cameras_ip/cameras.xml
+-'  75  4  ~/develop/cameras_ip/camera_recording_check.py
+-'  44  0  ~/develop/cameras_ip/camera_capture.sh
+-'  77  8  ~/develop/cameras_ip/camera_recording_check.py
+-'  78  8  ~/develop/cameras_ip/camera_recording_check.py
+-'  71  4  ~/develop/cameras_ip/camera_recording_check.py
+-'  57  24  ~/develop/cameras_ip/camera_recording_check.py
+-'  13  0  ~/develop/cameras_ip/camera_capture.sh
+-'  90  0  ~/develop/detect_ftp_files.sh
+-'  51  0  ~/develop/detect_ftp_files.sh
+-'  88  0  ~/develop/detect_ftp_files.sh
+-'  50  4  ~/develop/detect_ftp_files.sh
+-'  81  0  ~/develop/detect_ftp_files.sh
+-'  13  8  ~/develop/detect_ftp_files.sh
+-'  40  0  ~/develop/detect_ftp_files.sh
 -'  1  0  ~/develop/detect_ftp_files.sh
--'  29  23  /tmp/crontab.veqqF3/crontab
--'  1  0  /tmp/crontab.veqqF3/crontab
--'  33  0  ~/.muttrc
--'  37  0  ~/.muttrc
--'  21  0  ~/.muttrc
--'  1  0  ~/.muttrc
--'  23  2  ~/bin/libPython/libEmailTools.py
--'  1  0  ~/bin/libPython/libEmailTools.py
--'  28  0  /tmp/crontab.L4DpgT/crontab
--'  1  0  /tmp/crontab.L4DpgT/crontab
--'  7  0  ~/bin/monitor_disks.sh
--'  4  12  ~/bin/monitor_disks.sh
--'  5  46  ~/bin/monitor_disks.sh
--'  26  0  /tmp/crontab.6rdeZP/crontab
--'  1  0  /tmp/crontab.6rdeZP/crontab
--'  1  0  /etc/X11/xorg.conf
--'  29  0  /tmp/crontab.sfY939/crontab
--'  1  0  /tmp/crontab.sfY939/crontab
--'  61  0  ~/bin/django/start_django_server.sh
--'  56  3  ~/bin/django/start_django_server.sh
--'  52  32  ~/bin/django/start_django_server.sh
--'  32  0  /tmp/crontab.WK3led/crontab
--'  1  0  /tmp/crontab.WK3led/crontab
--'  18  41  ~/develop/monitor_system.sh
--'  16  0  ~/develop/monitor_system.sh
--'  15  0  ~/develop/monitor_system.sh
--'  9  9  ~/develop/monitor_system.sh
--'  21  0  ~/develop/monitor_system.sh
--'  1  0  ~/develop/monitor_system.sh
--'  1  0  ~/develop/monitor
--'  23  24  /tmp/crontab.eCF6tr/crontab
--'  1  0  /tmp/crontab.eCF6tr/crontab
--'  23  0  /tmp/crontab.eD1V2w/crontab
--'  1  0  /tmp/crontab.eD1V2w/crontab
--'  29  28  /tmp/crontab.rrTa71/crontab
--'  1  0  /tmp/crontab.rrTa71/crontab
--'  28  3  /tmp/crontab.1l7TOl/crontab
--'  1  0  /tmp/crontab.1l7TOl/crontab
--'  31  0  /tmp/crontab.8fivgj/crontab
--'  1  0  /tmp/crontab.8fivgj/crontab
--'  28  2  /tmp/crontab.Uyx8VI/crontab
--'  1  0  /tmp/crontab.Uyx8VI/crontab
--'  41  32  ~/bin/django/start_django_server.sh
--'  42  0  ~/bin/django/start_django_server.sh
--'  64  0  ~/bin/django/start_django_server.sh
--'  6  0  ~/develop/django/get_django_process_id.sh
--'  1  0  ~/develop/django/get_django_process_id.sh
--'  23  23  /tmp/crontab.XB15Jv/crontab
+-'  14  0  /tmp/crontab.fjMxmf/crontab
+-'  1  0  /tmp/crontab.fjMxmf/crontab
+-'  12  0  ~/develop/cameras_ip/camera_file_check.py
+-'  63  4  ~/develop/cameras_ip/camera_file_check.py
+-'  26  0  ~/develop/cameras_ip/camera_recording_check.py
+-'  23  8  ~/develop/cameras_ip/camera_recording_check.py
+-'  11  0  ~/develop/cameras_ip/camera_recording_check.py
+-'  7  5  ~/develop/cameras_ip/camera_recording_check.py
+-'  39  17  ~/develop/cameras_ip/camera_recording_check.py
+-'  74  4  ~/develop/cameras_ip/camera_recording_check.py
+-'  22  7  ~/develop/cameras_ip/camera_recording_check.py
+-'  21  4  ~/develop/cameras_ip/camera_recording_check.py
+-'  20  4  ~/develop/cameras_ip/camera_recording_check.py
+-'  19  8  ~/develop/cameras_ip/camera_recording_check.py
+-'  67  31  ~/develop/cameras_ip/camera_recording_check.py
+-'  56  20  ~/develop/cameras_ip/camera_recording_check.py
+-'  54  34  ~/develop/cameras_ip/camera_recording_check.py
+-'  55  16  ~/develop/cameras_ip/camera_recording_check.py
+-'  43  37  ~/develop/cameras_ip/camera_recording_check.py
+-'  52  29  ~/develop/cameras_ip/camera_recording_check.py
+-'  31  15  ~/develop/cameras_ip/camera_recording_check.py
+-'  29  11  ~/develop/cameras_ip/camera_recording_check.py
+-'  25  0  ~/develop/cameras_ip/cameras_info.py
+-'  38  0  ~/develop/cameras_ip/cameras_info.py
+-'  40  14  ~/develop/cameras_ip/cameras_info.py
+-'  11  39  ~/develop/cameras_ip/cameras_info.py
+-'  5  0  ~/develop/cameras_ip/cameras_info.py
+-'  17  14  ~/develop/cameras_ip/camera_recording_check.py
+-'  20  74  /tmp/crontab.ScEtx5/crontab
+-'  1  0  /tmp/crontab.ScEtx5/crontab
+-'  14  32  ~/develop/cameras_ip/camera_recording_check.py
+-'  16  0  ~/develop/cameras_ip/camera_recording_check.py
+-'  18  0  ~/develop/cameras_ip/camera_recording_check.py
+-'  41  0  ~/develop/cameras_ip/camera_capture.sh
+-'  45  8  ~/develop/cameras_ip/camera_capture.sh
+-'  42  0  ~/develop/cameras_ip/camera_capture.sh
+-'  33  58  ~/develop/cameras_ip/camera_capture.sh
+-'  25  0  ~/develop/cameras_ip/camera_capture.sh
+-'  9  7  ~/develop/cameras_ip/camera_capture.sh
+-'  48  5  ~/develop/cameras_ip/camera_capture.sh
+-'  37  8  ~/develop/cameras_ip/camera_capture.sh
+-'  12  0  ~/develop/cameras_ip/camera_capture.sh
 
 # Buffer list:
-%~/.gitignore	51	0
+%~/.gitignore	30	3
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	51	0
-	.	52	0
-	+	1	0
-	+	24	0
-	+	23	0
-	+	30	0
-	+	43	0
-	+	46	0
-	+	30	0
-	+	44	0
-	+	46	0
+	"	30	3
+	^	30	4
+	.	30	3
+	+	52	7
+	+	30	3
+
+> ~/bin/cameras_ip/cameras.xml
+	"	9	19
+	^	40	23
+	.	40	22
+	+	32	30
+	+	45	30
 	+	52	0
-
-> ~/.muttrc
-	"	22	0
-	^	22	0
-	.	21	3
-	+	1	43
-	+	1	16
-	+	1	30
-	+	1	33
-	+	1	36
-	+	1	33
-	+	1	25
-	+	1	24
-	+	1	0
-	+	1	4
-	+	1	55
-	+	1	4
-	+	1	4
-	+	1	4
-	+	1	33
-	+	1	39
-	+	1	28
-	+	1	64
-	+	1	4
-	+	1	50
-	+	1	50
-	+	37	26
-	+	1	0
-	+	2	25
-	+	27	14
-	+	26	25
-	+	25	19
-	+	1	0
-	+	37	0
-	+	33	0
-	+	32	0
-	+	36	26
-	+	34	0
-	+	34	0
-	+	34	0
-	+	34	0
-	+	34	0
-	+	35	0
-	+	36	0
-	+	35	32
-	+	36	27
-	+	34	0
-	+	35	0
-	+	36	0
-	+	25	16
-	+	33	21
-	+	21	3
-
-> ~/develop/detect_ftp_files.sh
-	"	98	15
-	^	2	16
-	.	2	15
-	+	101	33
-	+	105	5
-	+	22	0
-	+	20	0
-	+	16	11
-	+	108	0
-	+	105	88
-	+	105	0
-	+	103	42
-	+	105	0
-	+	104	8
-	+	105	0
-	+	102	0
-	+	105	0
-	+	107	3
-	+	105	7
-	+	90	26
-	+	91	68
-	+	92	8
-	+	94	4
-	+	91	66
-	+	94	17
-	+	22	0
-	+	20	0
-	+	34	61
-	+	40	25
-	+	40	0
-	+	25	0
-	+	40	3
-	+	35	14
-	+	34	0
-	+	34	0
-	+	34	32
-	+	21	19
-	+	23	12
-	+	23	3
-	+	21	16
-	+	34	69
-	+	34	0
-	+	40	0
-	+	26	0
-	+	34	0
-	+	23	0
-	+	35	30
-	+	37	19
-	+	36	20
-	+	37	16
-	+	36	7
-	+	37	15
-	+	35	19
-	+	36	22
-	+	13	0
-	+	37	11
-	+	40	0
-	+	40	0
-	+	35	0
-	+	105	71
-	+	106	12
-	+	39	0
-	+	37	7
-	+	38	14
-	+	38	0
-	+	10	25
-	+	38	23
-	+	8	56
-	+	9	0
-	+	8	15
-	+	6	7
-	+	34	0
-	+	35	0
-	+	31	0
-	+	6	29
-	+	8	38
-	+	6	30
-	+	8	15
-	+	40	0
-	+	33	53
-	+	45	16
-	+	48	59
-	+	51	13
-	+	51	7
-	+	16	24
-	+	44	14
-	+	48	43
-	+	51	0
-	+	47	54
-	+	52	0
-	+	46	0
-	+	51	0
-	+	50	18
-	+	7	29
-	+	89	0
-	+	88	43
-	+	89	23
-	+	98	12
-	+	93	41
-	+	94	26
-	+	98	72
-	+	7	0
-	+	2	15
-	a	9	37
-
-> ~/ftp/test.sh
-	"	5	28
-	^	5	29
-	.	5	29
-	+	1	11
-	+	5	29
-
-> /tmp/crontab.Re5j8e/crontab
-	"	29	18
-	^	29	19
-	.	29	18
-	+	25	18
-	+	28	19
-	+	29	18
-
-> /tmp/crontab.yR3lGC/crontab
-	"	29	2
-	^	29	3
-	.	29	2
-	+	29	2
-
-> /tmp/crontab.CUIanL/crontab
-	"	29	2
-	^	29	3
-	.	29	2
-	+	29	2
-
-> /tmp/mutt-mackall-1000-8358-0
-	"	1	0
-
-> /tmp/mutt-mackall-1000-8104-0
-	"	1	0
-
-> /tmp/crontab.bQNum6/crontab
-	"	24	0
-
-> /tmp/crontab.WUmXRq/crontab
-	"	29	48
-	^	29	49
-	.	29	46
-	+	29	46
-
-> /tmp/crontab.veqqF3/crontab
-	"	29	23
-	^	28	24
-	.	28	23
-	+	28	23
-
-> ~/bin/monitor_disks.sh
-	"	7	0
-	^	5	47
-	.	4	0
-	+	5	46
-	+	4	41
-	+	5	46
-	+	4	0
-
-> ~/bin/monitor_system.sh
-	"	22	0
-
-> /tmp/crontab.fzxQsc/crontab
-	"	26	0
-
-> ~/.bashrc
-	"	91	20
-	^	91	21
-	.	91	20
-	+	91	20
-
-> ~/bin/.gitignore
-	"	2	0
-
-> ~/bin/libPython/libEmailTools.py
-	"	23	2
-	^	23	3
-	.	23	2
-	+	23	0
-	+	22	2
-	+	23	33
-	+	22	2
-	+	23	2
-	z	23	2
-
-> /tmp/crontab.L4DpgT/crontab
-	"	28	0
-
-> /tmp/crontab.6rdeZP/crontab
-	"	26	0
-
-> /etc/X11/xorg.conf
-	"	1	0
-
-> /tmp/crontab.sfY939/crontab
-	"	29	0
-	^	29	1
-	.	29	0
-	+	29	0
-
-> ~/bin/django/start_django_server.sh
-	"	61	0
-	.	52	0
-	+	62	6
-	+	26	15
+	+	16	0
 	+	28	0
-	+	27	0
-	+	28	13
-	+	27	0
-	+	28	0
-	+	48	21
-	+	48	121
-	+	57	25
-	+	62	0
-	+	62	0
-	+	50	0
-	+	57	51
-	+	57	18
-	+	57	45
-	+	57	21
-	+	57	3
-	+	57	4
-	+	57	15
-	+	57	8
-	+	57	8
-	+	57	0
-	+	57	17
-	+	57	24
-	+	58	6
-	+	61	1
-	+	58	65
-	+	60	11
-	+	59	23
-	+	60	15
-	+	57	0
-	+	42	0
-	+	40	35
-	+	46	24
-	+	48	71
-	+	49	0
-	+	50	3
-	+	51	1
-	+	57	0
-	+	47	49
-	+	50	10
-	+	57	8
-	+	52	0
-	+	57	0
-	+	41	0
-	+	42	0
-	+	52	0
+	+	29	16
+	+	32	30
+	+	40	22
 
-> /tmp/crontab.WK3led/crontab
-	"	32	0
+> ~/bin/cameras_ip/camera_file_check.py
+	"	11	18
+	^	11	19
+	.	11	18
+	+	10	68
+	+	11	18
+	z	11	18
 
-> ~/develop/monitor_system.sh
-	"	18	41
-	^	18	42
-	.	18	41
-	+	10	18
-	+	4	26
-	+	14	0
-	+	10	5
-	+	12	0
-	+	12	33
-	+	9	10
-	+	10	3
-	+	12	0
-	+	9	0
-	+	11	0
-	+	11	9
-	+	11	16
-	+	14	8
-	+	4	27
-	+	22	0
-	+	21	0
-	+	22	3
-	+	21	1
-	+	22	60
-	+	11	0
-	+	14	0
-	+	22	55
-	+	14	0
-	+	14	0
-	+	13	20
-	+	14	0
-	+	20	0
-	+	15	11
-	+	17	15
-	+	16	41
-	+	22	81
-	+	5	20
-	+	6	20
-	+	17	0
-	+	20	0
-	+	25	0
-	+	21	0
-	+	19	21
-	+	8	5
-	+	16	9
-	+	13	9
-	+	11	11
-	+	7	11
-	+	9	0
-	+	7	0
-	+	18	41
+> ~/.vimrc
+	"	12	0
+	^	12	19
+	.	12	18
+	+	12	18
 
-> ~/develop/monitor
-	"	1	0
-
-> /tmp/crontab.eCF6tr/crontab
-	"	23	24
-	^	23	25
-	.	23	24
-	+	23	24
-
-> /tmp/crontab.eD1V2w/crontab
-	"	23	0
-
-> /tmp/crontab.rrTa71/crontab
-	"	29	28
-	^	29	29
-	.	29	28
-	+	29	28
-
-> /tmp/crontab.1l7TOl/crontab
-	"	28	3
-	^	28	4
-	.	28	3
-	+	28	3
-
-> /tmp/crontab.8fivgj/crontab
-	"	31	0
-
-> /tmp/crontab.Uyx8VI/crontab
-	"	28	2
-	^	28	3
-	.	28	2
-	+	28	2
-
-> ~/develop/django/get_django_process_id.sh
-	"	6	0
-
-> ~/develop/django/start_django_server.sh
-	"	52	30
-	^	52	31
-	.	52	31
-	+	27	0
-	+	2	0
-	+	52	31
-
-> /tmp/crontab.XB15Jv/crontab
-	"	23	23
-	^	23	24
-	.	23	23
-	+	23	23
-
-> /tmp/crontab.VeKkZg/crontab
-	"	28	4
-	^	28	5
-	.	28	5
-	+	28	5
-
-> ~/bin/django/stop_django_server.sh
-	"	7	0
-	.	5	0
-	+	2	23
-	+	5	25
-	+	19	12
-	+	19	0
-	+	5	47
-	+	19	24
-	+	19	0
-	+	8	32
-	+	19	0
-	+	8	46
-	+	9	15
-	+	14	23
-	+	18	1
-	+	13	8
-	+	14	12
-	+	19	11
-	+	8	0
-	+	12	0
-	+	10	37
-	+	22	1
-	+	19	2
-	+	20	28
-	+	5	63
-	+	23	4
-	+	7	0
-	+	5	9
-	+	7	0
-	+	19	0
-	+	8	3
-	+	9	3
-	+	10	3
-	+	12	7
-	+	13	7
-	+	14	7
-	+	15	11
-	+	16	7
-	+	17	11
-	+	18	7
-	+	19	3
-	+	20	7
-	+	21	7
-	+	22	3
-	+	9	31
-	+	5	0
-	+	5	0
-	+	4	32
-	+	9	0
-	+	6	40
-	+	11	31
-	+	5	0
-
-> ~/bin/django/get_django_process_id.sh
-	"	9	21
-	^	9	22
-	.	9	21
-	+	2	41
-	+	5	0
-	+	5	64
-	+	14	0
-	+	14	14
-	+	5	17
-	+	14	16
-	+	5	8
-	+	14	6
-	+	5	69
-	+	14	3
-	+	5	70
-	+	14	0
-	+	13	0
-	+	5	73
-	+	5	0
-	+	5	19
-	+	5	0
-	+	5	61
-	+	5	11
-	+	7	20
-	+	7	10
-	+	5	0
-	+	8	3
-	+	7	10
-	+	7	16
-	+	7	12
-	+	5	7
-	+	5	0
-	+	5	0
-	+	6	1
-	+	5	69
-	+	7	13
-	+	5	0
-	+	5	6
-	+	7	21
-	+	10	6
-	+	7	20
-	+	8	15
-	+	5	0
-	+	8	14
-	+	10	5
-	+	7	4
-	+	8	14
-	+	10	0
-	+	3	4
-	+	7	14
-	+	8	14
-	+	10	9
-	+	7	10
-	+	3	1
-	+	3	0
-	+	2	41
-	+	5	0
-	+	7	24
-	+	5	13
-	+	7	15
-	+	5	0
-	+	5	13
-	+	7	16
-	+	5	16
-	+	5	14
-	+	7	29
-	+	8	0
-	+	10	27
-	+	10	16
-	+	5	11
-	+	12	0
-	+	5	27
-	+	5	0
-	+	7	12
-	+	5	0
-	+	7	4
-	+	4	13
-	+	7	20
-	+	10	0
-	+	12	0
-	+	4	0
-	+	4	0
-	+	11	12
-	+	7	31
-	+	10	13
-	+	7	20
-	+	9	21
-
-> /tmp/crontab.Ha6lpK/crontab
-	"	28	0
-	.	28	0
-	+	28	0
-
-> ~/bin/reboot_3com.sh
-	"	3	0
-	^	2	24
-	.	4	0
-	+	3	49
-	+	3	0
-	+	4	36
-	+	2	30
-	+	4	26
-	+	2	23
-	+	4	0
-
-> ~/bin/rebooot_3com.sh
-	"	1	0
-
-> ~/.snmp/mibs/SNMPv2-SMI.txt
-	"	49	0
-	^	49	0
-	.	49	0
-	+	50	6
-	+	50	27
-	+	50	35
-	+	50	0
-	+	47	0
-	+	48	0
-	+	48	45
-	+	50	0
-	+	48	0
-	+	49	0
-
-> ~/.snmp/mibs/g
-	"	1	0
-	^	77	0
-	.	76	0
-	+	1449	3
-	+	660	3
-	+	110	58
-	+	592	6
-	+	15	2
-	+	16	4
-	+	76	0
-
-> ~/.snmp/mibs/IANAifType-MIB.txt
-	"	466	19
-	^	457	19
-	.	457	19
-	+	187	18
-	+	374	27
-	+	387	42
-	+	389	23
-	+	394	18
-	+	397	23
-	+	447	86
-	+	457	19
-
-> ~/.snmp/mibs/f
-	"	2513	0
-	^	2513	0
-	.	2513	0
-	+	1	30
-	+	1	34
-	+	21328	2
-	+	20308	4
-	+	20309	0
-	+	1	51
-	+	16361	3
-	+	16359	0
-	+	13781	3
-	+	8572	43
-	+	8610	0
-	+	8561	3
-	+	8136	3
-	+	3881	58
-	+	4432	0
-	+	2513	0
-
-> ~/.vim_runtime/my_configs.vim
-	"	1	9
-	^	1	10
-	.	1	9
-	+	1	9
-
-> ~/bin/no-auto-indent.txt
-	"	1	0
-	^	1	26
-	.	1	25
-	+	1	25
-
-> ~/.snmp/mibs/a3com496.txt
-	"	2	0
-
-> ~/.snmp/mibs/RMON2-MIB.txt
-	"	5782	0
-	^	5782	0
-	.	5781	3
-	+	5781	3
-
-> ~/.snmp/mibs/IANAifType.txt
-	"	517	0
-	^	517	0
-	.	516	6
-	+	34	58
-	+	516	6
-
-> ~/.snmp/mibs/SNMPv2-MIB.txt
-	"	864	0
-	.	865	0
-	+	864	3
-	+	865	0
-
-> ~/.snmp/mibs/SNMP-FRAMEWORK-MIB.txt
-	"	1	0
-	.	539	0
-	+	1075	3
-	+	1076	0
-	+	1	39
-	+	1	40
-	+	1	40
-	+	538	3
-	+	539	0
-
-> ~/.vim_runtime/source
-	"	1	0
-	^	1	0
-	.	2	0
-	+	1	34
-	+	2	0
-	+	1	0
-	+	2	0
-
-> ~/.snmp/mibs/A3COM496-MIB.txt
-	"	1	0
-
-> ~/.snmp/mibs/Pulizzi.txt
-	"	3	0
-
-> ~/no
-	"	1	0
-
-> ~/.snmp/mibs/Q-BRIDGE-MIB.txt
-	"	2162	0
-	.	2167	0
-	+	2166	3
-	+	2167	0
-
-> ~/.snmp/mibs/BRIDGE-MIB.txt
-	"	1096	0
-	^	1097	3
-	.	1098	0
-	+	1	68
-	+	1098	0
-
-> ~/.snmp/mibs/IF-MIB.txt
-	"	1828	0
-	.	1829	0
-	+	1828	3
-	+	1829	0
-
-> /usr/share/vim/vim73/doc/help.txt
-	"	28	0
-
-> ~/.snmp/mibs/a3com496.mib.txt
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/.snmp/mibs/SNMPv2-TC.txt
-	"	728	0
-	.	729	0
-	+	1	68
-	+	729	0
-
-> ~/bin/t
-	"	1	0
-
-> ~/.snmp/mibs/SNMPv2-TC
-	"	1	0
-	^	1	1
-	.	1	0
-	+	1383	0
-	+	861	3
-	+	5	2
-	+	686	7
-	+	1	0
-
-> ~/.snmp/mibs/SNMPv2-SMI
-	"	1	0
-
-> ~/bin/testAVR.py
-	"	61	0
-
-> ~/bin/ping_it.sh
-	"	19	4
-	.	36	4
-	+	22	22
-	+	35	8
-	+	36	8
-	+	35	8
-	+	36	0
-	+	35	0
-	+	36	8
-	+	35	8
-	+	15	27
-	+	16	47
-	+	20	9
-	+	39	5
-	+	15	12
-	+	15	0
-	+	20	18
-	+	16	46
-	+	20	16
-	+	30	34
-	+	22	0
-	+	20	20
-	+	33	25
-	+	39	0
-	+	15	0
-	+	30	0
-	+	31	0
-	+	38	0
-	+	21	9
-	+	21	5
-	+	20	14
-	+	21	11
-	+	15	0
-	+	19	0
-	+	20	16
-	+	21	0
-	+	30	29
-	+	33	23
-	+	36	4
-	+	31	10
-	+	38	0
-	+	37	9
-	+	31	44
-	+	31	1
-	+	31	34
-	+	31	24
-	+	31	23
-	+	31	5
-	+	31	21
-	+	31	19
-	+	31	32
-	+	31	0
-	+	31	0
-	+	31	32
-	+	31	14
-	+	31	3
-	+	31	17
-	+	31	0
-	+	31	0
-	+	36	4
-
-> /tmp/crontab.ze2o9y/crontab
-	"	30	0
-	^	30	1
-	.	30	0
-	+	30	0
-
-> /tmp/crontab.Nzg4be/crontab
-	"	30	0
-	.	30	0
-	+	30	0
-
-> /etc/hosts
-	"	11	12
-	^	11	13
-	.	11	12
-	+	3	23
-	+	5	16
-	+	6	16
-	+	5	16
-	+	6	16
-	+	4	15
-	+	3	0
-	+	4	38
-	+	2	29
-	+	4	0
-	+	7	15
-	+	8	15
-	+	9	21
+> ~/bin/file_find_large.sh
+	"	9	16
+	^	9	17
+	.	9	16
+	+	10	102
+	+	6	2
 	+	10	0
 	+	8	10
-	+	10	11
-	+	11	12
+	+	10	36
+	+	9	16
 
-> ~/bin/update.sh
-	"	2	0
-	^	2	0
-	.	1	11
+> ~/develop/detect_ftp_files.sh
+	"	102	0
+	.	84	0
+	+	17	17
+	+	21	3
+	+	20	2
+	+	21	10
+	+	21	3
+	+	17	16
+	+	18	24
+	+	84	3
+	+	21	0
+	+	81	10
+	+	77	33
+	+	81	0
+	+	80	7
+	+	81	0
+	+	64	0
+	+	60	15
+	+	79	45
+	+	86	0
+	+	84	0
+	+	87	0
+	+	86	62
+	+	88	0
+	+	84	3
+	+	21	0
+	+	79	15
+	+	79	26
+	+	79	19
+	+	84	3
+	+	79	0
+	+	79	0
+	+	84	0
+	+	88	0
+	+	18	0
+	+	61	36
+	+	62	13
+	+	63	15
+	+	79	0
+	+	84	0
+	+	78	19
+	+	83	15
+	+	84	0
+	+	84	0
+
+> ~/bin/detect_ftp_files.sh
+	"	91	0
+	^	91	0
+	.	92	0
+	+	12	21
+	+	13	44
+	+	7	0
+	+	6	0
+	+	7	29
+	+	13	30
+	+	58	11
+	+	56	0
+	+	57	0
+	+	71	22
+	+	73	25
+	+	75	0
+	+	76	0
+	+	75	27
+	+	76	19
+	+	86	23
+	+	87	54
+	+	90	20
+	+	91	40
+	+	91	0
+	+	91	60
+	+	68	35
+	+	108	4
+	+	85	54
+	+	86	6
+	+	56	5
+	+	99	32
+	+	56	0
+	+	97	0
+	+	99	33
+	+	83	62
+	+	71	23
+	+	73	25
+	+	75	36
+	+	98	14
+	+	99	31
+	+	102	13
+	+	102	0
+	+	102	7
+	+	108	4
+	+	102	0
+	+	109	3
+	+	110	3
+	+	115	4
+	+	116	4
+	+	117	4
+	+	44	30
+	+	47	0
+	+	48	0
+	+	46	9
+	+	43	32
+	+	12	27
+	+	13	0
+	+	12	29
+	+	75	36
+	+	114	4
+	+	91	56
+	+	89	52
+	+	92	59
+	+	14	0
+	+	126	37
+	+	28	0
+	+	23	12
+	+	28	58
+	+	33	0
+	+	28	8
+	+	29	14
+	+	33	3
+	+	29	46
+	+	30	0
+	+	31	13
+	+	29	9
+	+	27	28
+	+	28	3
+	+	29	3
+	+	30	7
+	+	31	3
+	+	32	0
+	+	14	9
+	+	14	16
+	+	26	26
+	+	14	9
+	+	26	47
+	+	33	0
+	+	24	9
+	+	23	0
+	+	126	33
+	+	127	61
+	+	128	8
+	+	127	62
+	+	128	11
+	+	14	10
+	+	7	0
+	+	6	0
+	+	89	59
+	+	92	0
+
+> /tmp/crontab.5OBZXr/crontab
+	"	1	0
+
+> /tmp/crontab.qUmI9y/crontab
+	"	1	0
+
+> ~/develop/cameras_ip/camera_capture.sh
+	"	11	0
+	.	13	0
+	+	48	3
+	+	48	7
+	+	48	3
+	+	48	4
+	+	48	0
+	+	42	17
+	+	47	3
+	+	48	0
+	+	2	0
+	+	47	3
+	+	12	57
+	+	12	7
+	+	12	57
+	+	12	9
+	+	42	21
+	+	12	0
+	+	12	11
+	+	12	0
+	+	12	0
+	+	35	10
+	+	42	19
+	+	48	0
+	+	42	40
+	+	42	0
+	+	36	0
+	+	37	0
+	+	33	0
+	+	31	0
+	+	33	11
+	+	35	11
+	+	34	15
+	+	36	17
+	+	37	87
+	+	42	17
+	+	29	0
+	+	42	9
+	+	37	88
+	+	42	0
+	+	37	65
+	+	48	0
+	+	38	25
+	+	48	0
+	+	48	0
+	+	39	0
+	+	42	11
+	+	42	13
+	+	12	0
+	+	3	22
+	+	12	14
+	+	13	0
+	+	12	0
+	+	2	7
+	+	2	0
+	+	4	0
+	+	9	3
+	+	9	14
+	+	8	14
+	+	9	0
+	+	15	0
+	+	42	12
+	+	47	5
+	+	48	0
+	+	42	0
+	+	45	0
+	+	48	0
+	+	39	181
+	+	5	12
+	+	6	40
+	+	5	13
+	+	9	0
+	+	10	8
+	+	8	0
+	+	11	0
+	+	7	9
+	+	20	34
+	+	24	3
+	+	47	0
+	+	29	0
+	+	25	0
+	+	29	51
+	+	31	52
+	+	33	53
+	+	35	53
+	+	38	26
+	+	39	153
+	+	42	0
+	+	15	6
+	+	22	14
+	+	28	0
+	+	42	11
+	+	42	0
+	+	42	5
+	+	39	153
+	+	10	0
+	+	11	11
+	+	42	0
+	+	40	0
+	+	42	0
+	+	44	0
+	+	13	0
+
+> ~/develop/cameras_ip/camera_vlc_restart.sh
+	"	42	3
+	^	42	4
+	.	42	0
+	+	46	16
+	+	5	13
+	+	6	31
+	+	17	0
+	+	13	0
+	+	10	0
+	+	9	0
+	+	4	28
+	+	12	13
+	+	46	0
+	+	29	0
+	+	30	11
+	+	33	11
+	+	31	51
+	+	31	14
+	+	31	0
+	+	30	0
+	+	22	0
+	+	31	56
+	+	32	26
+	+	31	10
+	+	33	16
+	+	33	31
+	+	33	0
+	+	34	3
+	+	44	5
+	+	37	9
+	+	33	29
+	+	36	43
+	+	38	2
+	+	38	0
+	+	41	50
+	+	40	20
+	+	41	20
+	+	43	24
+	+	39	1
+	+	42	0
+
+> ~/t.sh
+	"	1	0
+
+> ~/t.out
+	"	42	0
+
+> ~/.ssh/authorized_keys2
+	"	1	7
+	^	2	8
+	.	2	7
 	+	3	19
-	+	1	11
+	+	2	7
+
+> /etc/hosts
+	"	11	24
+	^	11	25
+	.	11	24
+	+	11	24
+
+> ~/develop/cameras_ip/cameras.xml
+	"	40	18
+	^	40	19
+	.	40	18
+	+	1	8
+	+	1	38
+	+	42	8
+	+	2	0
+	+	3	0
+	+	4	21
+	+	5	23
+	+	6	14
+	+	15	0
+	+	6	37
+	+	7	17
+	+	15	42
+	+	15	28
+	+	16	0
+	+	17	16
+	+	18	12
+	+	19	7
+	+	19	25
+	+	20	11
+	+	28	37
+	+	28	12
+	+	28	17
+	+	3	15
+	+	16	15
+	+	6	0
+	+	19	0
+	+	3	17
+	+	16	12
+	+	15	0
+	+	22	0
+	+	28	0
+	+	8	0
+	+	15	0
+	+	22	0
+	+	28	0
+	+	9	0
+	+	22	33
+	+	22	39
+	+	22	10
+	+	22	28
+	+	22	42
+	+	22	0
+	+	11	58
+	+	25	0
+	+	12	14
+	+	25	0
+	+	12	22
+	+	24	0
+	+	25	0
+	+	28	0
+	+	16	16
+	+	17	14
+	+	18	17
+	+	19	25
+	+	20	9
+	+	22	12
+	+	23	17
+	+	21	0
+	+	22	0
+	+	28	0
+	+	29	2
+	+	16	0
+	+	29	0
+	+	13	16
+	+	14	14
+	+	26	15
+	+	27	19
+	+	39	0
+	+	40	18
+
+> ~/develop/libPython/cameras_info.py
+	"	9	20
+	^	9	21
+	.	9	20
+	+	17	13
+	+	44	18
+	+	22	0
+	+	9	36
+	+	42	0
+	+	40	0
+	+	38	50
+	+	39	39
+	+	40	49
+	+	41	38
+	+	42	51
+	+	43	40
+	+	9	20
+	z	9	20
+
+> ~/develop/cameras_ip/camera_recording_check.py
+	"	36	0
+	^	69	13
+	.	69	12
+	+	26	53
+	+	26	42
+	+	26	0
+	+	26	0
+	+	26	56
+	+	26	45
+	+	26	0
+	+	26	0
+	+	26	47
+	+	26	36
+	+	26	0
+	+	29	11
+	+	31	14
+	+	6	40
+	+	26	0
+	+	29	11
+	+	31	0
+	+	30	0
+	+	28	29
+	+	16	0
+	+	16	0
+	+	38	20
+	+	39	29
+	+	43	37
+	+	73	12
+	+	74	30
+	+	51	16
+	+	54	15
+	+	11	8
+	+	16	0
+	+	44	30
+	+	49	45
+	+	44	39
+	+	49	20
+	+	49	8
+	+	54	41
+	+	55	22
+	+	45	9
+	+	49	0
+	+	54	28
+	+	55	0
+	+	54	18
+	+	52	35
+	+	54	34
+	+	56	20
+	+	47	25
+	+	55	40
+	+	47	18
+	+	48	17
+	+	46	37
+	+	55	26
+	+	60	15
+	+	64	19
+	+	55	30
+	+	63	46
+	+	65	20
+	+	67	8
+	+	68	11
+	+	67	44
+	+	68	45
+	+	72	3
+	+	73	4
+	+	74	8
+	+	75	4
+	+	67	0
+	+	66	34
+	+	72	18
+	+	74	55
+	+	75	19
+	+	67	0
+	+	36	4
+	+	67	31
+	+	71	51
+	+	49	0
+	+	75	0
+	+	11	0
+	+	23	0
+	+	71	0
+	+	57	24
+	+	71	0
+	+	75	24
+	+	76	8
+	+	77	8
+	+	78	8
+	+	57	0
+	+	75	0
+	+	42	0
+	+	39	13
+	+	40	13
+	+	44	0
+	+	40	7
+	+	45	0
+	+	40	0
+	+	37	4
+	+	40	8
+	+	41	33
+	+	42	0
+	+	70	42
+	+	40	0
+	+	69	12
+	z	69	12
+
+> /tmp/crontab.rCMLHC/crontab
+	"	21	0
+
+> /tmp/crontab.23GUf7/crontab
+	"	20	67
+	^	20	68
+	.	20	67
+	+	20	67
+
+> /tmp/crontab.fjMxmf/crontab
+	"	14	0
+
+> ~/develop/cameras_ip/camera_file_check.py
+	"	12	0
+
+> ~/bin/cameras_ip/camera_capture.sh
+	"	12	48
+	^	12	49
+	.	12	48
+	+	12	41
+	+	15	0
+	+	12	48
+
+> /tmp/crontab.XNmfIo/crontab
+	"	20	64
+	.	20	64
+	+	19	64
+	+	20	64
+
+> /tmp/crontab.BcysCb/crontab
+	"	22	0
+
+> /tmp/crontab.bRY97P/crontab
+	"	21	45
+	^	21	46
+	.	21	45
+	+	19	45
+	+	20	45
+	+	21	45
+
+> ~/develop/cameras_ip/cameras_info.py
+	"	25	0
+	^	17	43
+	.	40	0
+	+	5	0
+	+	3	44
+	+	4	0
+	+	9	60
+	+	10	0
+	+	9	40
+	+	11	0
+	+	17	42
+	+	40	0
+	z	38	0
+
+> /tmp/crontab.ScEtx5/crontab
+	"	20	74
+	^	20	75
+	.	20	74
+	+	19	74
+	+	20	74
+
+> ~/develop/camera_capture.sh
+	"	4	3
+	^	4	4
+	.	4	3
+	+	43	0
+	+	33	51
+	+	43	0
+	+	33	51
+	+	12	160
+	+	14	3
+	+	3	65
+	+	8	3
+	+	3	72
+	+	10	0
+	+	11	3
+	+	5	10
+	+	3	67
+	+	5	13
+	+	9	3
+	+	3	4
+	+	4	3
+
+> ~/.vim_runtime/vimrcs/plugins_config.vim
+	"	48	1
+
+> ~/.vim_runtime/my_configs.vim
+	"	2	14
+	^	2	15
+	.	2	14
+	+	2	14
+
+> /tmp/crontab.EmQtmQ/crontab
+	"	22	34
+	^	22	35
+	.	22	34
+	+	22	34
+
+> /tmp/crontab.0K62Sv/crontab
+	"	1	0
+
+> ~/.gitconfig
+	"	23	0
+	.	23	0
+	+	23	7
+	+	30	58
+	+	4	7
+	+	4	7
+	+	9	27
+	+	5	2
+	+	6	2
+	+	7	2
+	+	8	2
+	+	9	2
+	+	5	3
+	+	6	3
+	+	7	3
+	+	8	3
+	+	9	3
+	+	22	25
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+
+> /tmp/crontab.xpCHhX/crontab
+	"	20	28
+	^	20	29
+	.	20	28
+	+	19	28
+	+	20	28
+
+> ~/bin/camera_capture.sh
+	"	36	77
+	^	29	96
+	.	29	96
+	+	1	10
+	+	7	203
+	+	9	0
+	+	7	5
+	+	11	11
+	+	4	6
+	+	7	43
+	+	6	24
+	+	7	177
+	+	11	12
+	+	11	11
+	+	3	35
+	+	6	24
+	+	11	0
+	+	13	81
+	+	14	0
+	+	7	30
+	+	31	0
+	+	31	0
+	+	29	96
+
+> /tmp/crontab.66cAAP/crontab
+	"	22	3
+	^	22	4
+	.	22	3
+	+	22	3
+
+> /tmp/crontab.VbrzbL/crontab
+	"	22	3
+	^	22	4
+	.	22	3
+	+	22	3
+
+> /tmp/crontab.ehXAp8/crontab
+	"	22	3
+	^	22	4
+	.	22	3
+	+	22	3
+
+> /tmp/crontab.8TAdyG/crontab
+	"	20	0
+
+> ~/bin/disk_storage/camera_recording_check.py
+	"	5	0
+	^	5	7
+	.	3	0
+	+	2	3
+	+	5	0
+	+	3	0
+	z	5	0
+
+> /tmp/crontab.Fom2dS/crontab
+	"	1	0
+
+> ~/bin/disk_storage/camera_file_check.py
+	"	12	62
+	^	12	63
+	.	12	62
+	+	22	0
+	+	39	0
+	+	12	62
+	z	12	62
+
+> ~/bin/monitor_disks.sh
+	"	9	12
+	^	9	13
+	.	9	12
+	+	4	46
+	+	3	41
+	+	4	46
+	+	3	0
+	+	2	7
+	+	3	0
+	+	17	38
+	+	23	15
+	+	19	51
+	+	27	24
+	+	19	55
+	+	20	12
+	+	19	51
+	+	20	51
+	+	22	0
+	+	23	26
+	+	10	17
+	+	23	12
+	+	23	0
+	+	2	22
+	+	33	29
+	+	2	0
+	+	33	39
+	+	2	0
+	+	13	0
+	+	2	0
+	+	5	0
+	+	2	0
+	+	5	0
+	+	2	0
+	+	10	17
+	+	9	12
+	+	10	17
+	+	9	12
+	+	10	17
+	+	9	12
+	+	11	17
+	+	9	12
+
+> /tmp/crontab.yKpE0G/crontab
+	"	21	34
+	^	21	35
+	.	21	34
+	+	21	34
+
+> ~/develop/disk_storage/camera_file_check.py
+	"	10	69
+	^	10	70
+	.	10	69
+	+	10	22
+	+	42	57
+	+	46	0
+	+	45	5
+	+	44	7
+	+	45	0
+	+	4	49
+	+	32	61
+	+	32	11
+	+	4	5
+	+	2	0
+	+	6	9
+	+	67	0
+	+	32	0
+	+	62	15
+	+	60	26
+	+	60	44
+	+	60	0
+	+	60	0
+	+	63	12
+	+	64	15
+	+	65	16
+	+	60	0
+	+	57	12
+	+	60	41
+	+	62	0
+	+	66	62
+	+	64	58
+	+	60	57
+	+	9	61
+	+	8	53
+	+	9	0
+	+	8	56
+	+	24	49
+	+	9	21
+	+	22	26
+	+	21	0
+	+	24	25
+	+	9	21
+	+	24	42
+	+	9	21
+	+	57	57
+	+	9	21
+	+	10	45
+	+	14	3
+	+	32	0
+	+	32	0
+	+	10	71
+	+	11	21
+	+	14	65
+	+	15	22
+	+	14	4
+	+	16	0
+	+	38	44
+	+	39	44
+	+	47	46
+	+	65	24
+	+	57	19
+	+	58	28
+	+	74	0
+	+	10	69
+	+	11	18
+	+	5	8
+	+	15	0
+	+	12	0
+	+	14	31
+	+	60	16
+	+	61	38
+	+	37	21
+	+	38	40
+	+	39	40
+	+	47	42
+	+	58	23
+	+	65	17
+	+	61	45
+	+	62	30
+	+	13	23
+	+	58	23
+	+	61	52
+	+	15	22
+	+	66	12
+	+	39	38
+	+	41	8
+	+	39	31
+	+	39	0
+	+	38	24
+	+	39	21
+	+	39	0
+	+	41	15
+	+	24	48
+	+	26	61
+	+	41	0
+	+	24	49
+	+	9	0
+	+	10	0
+	+	16	0
+	+	15	21
+	+	66	12
+	+	62	35
+	+	10	69
+	z	10	69
+
+> /tmp/crontab.lC0ZtU/crontab
+	"	9	0
+
+> /tmp/crontab.yPbslc/crontab
+	"	21	28
+	^	21	29
+	.	21	28
+	+	21	28
+
+> /tmp/crontab.ahR6G3/crontab
+	"	21	54
+	^	21	55
+	.	21	54
+	+	17	27
+	+	21	54
+
+> ~/develop/disk_storage/disk_manage.py
+	"	13	19
+	^	13	20
+	.	13	19
+	+	14	49
+	+	43	0
+	+	47	70
+	+	26	0
+	+	26	0
+	+	16	0
+	+	22	3
+	+	24	5
+	+	24	7
+	+	24	4
+	+	24	4
+	+	24	4
+	+	16	28
+	+	24	34
+	+	24	34
+	+	26	7
+	+	17	14
+	+	24	27
+	+	23	0
+	+	22	12
+	+	24	64
+	+	19	3
+	+	20	8
+	+	22	11
+	+	23	11
+	+	24	12
+	+	24	12
+	+	24	11
+	+	24	61
+	+	25	0
+	+	24	0
+	+	19	40
+	+	16	0
+	+	27	0
+	+	39	0
+	+	30	0
+	+	30	45
+	+	25	49
+	+	21	20
+	+	22	40
+	+	23	44
+	+	21	40
+	+	26	0
+	+	21	21
+	+	24	30
+	+	23	29
+	+	24	0
+	+	18	4
+	+	26	18
+	+	17	16
+	+	24	31
+	+	25	50
+	+	5	43
+	+	4	0
+	+	5	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	32	0
+	+	31	0
+	+	32	40
+	+	38	0
+	+	32	6
+	+	34	10
+	+	22	49
+	+	10	7
+	+	13	42
+	+	12	31
+	+	14	0
+	+	13	7
+	+	14	71
+	+	27	10
+	+	30	32
+	+	34	11
+	+	36	38
+	+	37	14
+	+	24	0
+	+	21	0
+	+	8	0
+	+	5	13
+	+	6	38
+	+	6	0
+	+	5	0
+	+	5	0
+	+	6	0
+	+	27	0
+	+	37	0
+	+	19	13
+	+	5	0
+	+	19	0
+	+	16	23
+	+	24	12
+	+	25	15
+	+	24	0
+	+	18	4
+	+	12	10
+	+	13	32
+	+	14	63
+	+	11	21
+	+	13	19
+	z	13	19
+
+> ~/bin/libPython/libEmailTools.py
+	"	24	2
+	^	23	37
+	.	24	0
+	+	24	0
+	+	22	2
+	+	24	28
+	+	22	2
+	+	24	2
+	+	23	36
+	+	24	0
+	z	24	2
+
+> /tmp/crontab.52Yklo/crontab
+	"	21	0
+
+> ~/develop/disk_storage/tasks.py
+	"	10	0
+	^	17	14
+	.	17	13
+	+	3	16
+	+	6	0
+	+	5	0
+	+	13	0
+	+	14	0
+	+	16	23
+	+	17	13
+	z	5	0
+
+> ~/develop/disk_storage/celery.py
+	"	5	27
+	^	8	35
+	.	5	27
+	+	5	28
+	+	8	34
+	+	5	27
+	z	5	27
+
+> ~/.bashrc
+	"	110	18
+	^	110	1
+	.	110	18
+	+	88	20
+	+	109	25
+	+	6	0
+	+	79	0
+	+	110	18
+
+> ~/develop/disk_storage/__init__.py
+	"	1	0
+	z	1	0
+
+> ~/develop/proj/tasks.py
+	"	21	0
+	.	22	0
+	+	4	8
+	+	21	0
+	+	22	50
+	+	22	0
+	+	22	4
+	+	22	4
+	+	22	4
+	+	22	4
+	+	22	0
+	z	21	0
+
+> ~/develop/proj/celery.py
+	"	5	0
+
+> ~/develop/test_disk_storage.py
+	"	7	0
+	^	3	0
+	.	8	0
+	+	4	61
+	+	4	41
+	+	4	73
+	+	1	24
+	+	2	0
+	+	4	47
+	+	7	10
+	+	4	14
+	+	8	33
+	+	8	0
+	+	8	0
+	z	8	33
+
+> ~/develop/worker_disk_storage.sh
+	"	3	39
+	^	3	40
+	.	3	39
+	+	3	39
+
+> ~/develop/proj/__init__.py
+	"	1	0
+	z	1	0
+
+> ~/develop/.bashrc
+	"	1	0
+
+> ~/develop/proj/celery.p[y
+	"	1	0
 
 > /etc/apt/sources.list
-	"	79	0
-	.	80	0
-	+	80	0
+	"	77	0
+	^	76	84
+	.	76	73
+	+	103	0
+	+	95	0
+	+	94	0
+	+	93	0
+	+	94	0
+	+	75	0
+	+	92	0
+	+	95	0
+	+	96	0
+	+	97	0
+	+	98	0
+	+	99	0
+	+	89	0
+	+	90	0
+	+	91	0
+	+	76	73
 
-> /tmp/crontab.x8aWHx/crontab
-	"	30	0
-	^	30	1
-	.	30	0
-	+	30	0
-
-> /tmp/crontab.ZRRQuc/crontab
-	"	30	35
-	^	30	36
-	.	30	35
-	+	30	35
-
-> /tmp/crontab.wnMrCB/crontab
-	"	30	0
-	.	30	0
-	+	30	0
-
-> /tmp/crontab.05Gne7/crontab
-	"	30	0
-	^	30	1
-	.	30	0
-	+	30	0
-
-> /tmp/crontab.fkvbxX/crontab
-	"	30	5
-	^	30	6
-	.	30	5
-	+	30	5
-
-> /tmp/crontab.ab31Bv/crontab
-	"	30	0
-	^	30	1
-	.	30	0
-	+	29	0
-	+	30	0
-
-> /tmp/crontab.GmoCwU/crontab
-	"	29	0
-	.	29	0
-	+	29	0
-
-> /tmp/crontab.1ppsj5/crontab
-	"	31	0
-
-> ~/django/t
+> /tmp/crontab.6J0jrb/crontab
 	"	3	0
+	.	3	0
+	+	2	0
+	+	3	0
 
-> /tmp/crontab.1LNb4V/crontab
-	"	30	0
+> ~/bin/proj/celery.py
+	"	1	0
+	^	17	0
+	.	16	15
+	+	16	15
+	z	17	0
 
-> /tmp/crontab.C1qt6s/crontab
-	"	28	0
-	^	28	1
-	.	28	0
-	+	28	0
+> ~/bin/proj/tasks.py
+	"	18	22
+	^	18	23
+	.	18	22
+	+	1	25
+	+	24	12
+	+	25	0
+	+	26	0
+	+	26	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	18	22
+	z	18	22
 
-> /tmp/crontab.I6gtvA/crontab
-	"	31	0
+> ~/bin/storage/tasks.py
+	"	19	0
+	^	18	23
+	.	20	0
+	+	27	0
+	+	1	12
+	+	1	18
+	+	21	0
+	+	1	0
+	+	1	38
+	+	19	30
+	+	19	0
+	+	19	0
+	+	19	0
+	+	19	0
+	+	19	0
+	+	19	0
+	+	1	38
+	+	18	22
+	+	19	0
+	+	20	0
+	z	20	0
 
-> /tmp/crontab.jeBs5F/crontab
-	"	28	0
+> ~/bin/storage/celery.py
+	"	9	0
+	^	16	15
+	.	16	13
+	+	16	13
+	z	16	14
 
-> /tmp/crontab.f5mHI7/crontab
-	"	30	0
-	^	30	1
-	.	30	0
-	+	29	0
-	+	30	0
+> ~/bin/storage/__init__.py
+	"	1	0
+	z	1	0
 
-> /tmp/crontab.bEfqqw/crontab
-	"	29	1
-	^	29	2
-	.	29	1
-	+	30	0
-	+	29	37
-	+	30	37
-	+	29	5
-	+	30	5
-	+	29	1
+> ~/bin/storage/storage.py
+	"	8	0
+	^	3	23
+	.	3	22
+	+	6	7
+	+	7	7
+	+	9	7
+	+	10	7
+	+	13	14
+	+	8	7
+	+	9	11
+	+	10	11
+	+	11	11
+	+	12	11
+	+	13	11
+	+	15	0
+	+	16	0
+	+	15	0
+	+	16	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	3
+	+	10	4
+	+	11	4
+	+	12	4
+	+	13	4
+	+	7	1
+	+	6	0
+	+	8	15
+	+	2	0
+	+	3	22
+	z	3	22
 
-> ~/ping_it.sh
+> ~/bin/storage/test.py
+	"	1	23
+	^	1	24
+	.	1	23
+	+	1	30
+	+	4	16
+	+	2	8
+	+	4	5
+	+	3	6
+	+	4	3
+	+	3	7
+	+	10	0
+	+	9	0
+	+	7	3
+	+	8	4
+	+	3	4
+	+	2	0
+	+	8	0
+	+	1	23
+	z	1	23
+
+> ~/.vim_runtime/vimrcs/basic.vim
+	"	166	11
+
+> ~/bin/celery_test.py
+	"	7	15
+	^	7	16
+	.	7	12
+	+	7	12
+
+> ~/bin/rsync.sh
+	"	11	35
+	^	11	36
+	.	11	35
+	+	17	31
+	+	16	0
+	+	10	0
+	+	11	35
+
+> ~/bin/rsync-exclude.txt
+	"	16	0
+	^	16	5
+	.	16	0
+	+	16	0
+
+> /tmp/crontab.zSooqa/crontab
 	"	1	0
 
-> ~/bin/pingit
+> ~/bin/rsync_exclude.txt
+	"	2	6
+	^	2	7
+	.	2	6
+	+	2	6
+
+> /tmp/crontab.gvKOTu/crontab
 	"	1	0
 
-> /tmp/crontab.9ZjzGP/crontab
-	"	29	5
-	^	29	7
-	.	29	5
-	+	30	4
-	+	29	0
-	+	30	0
-	+	29	5
+> /tmp/crontab.xamZe4/crontab
+	"	1	0
 
-> /tmp/crontab.PiBEb6/crontab
-	"	30	0
+> ~/bin/monitor
+	"	1	0
 
-> /tmp/crontab.Vb5gz4/crontab
-	"	29	5
-	^	29	6
-	.	29	5
-	+	29	5
+> /tmp/crontab.vJRrHI/crontab
+	"	19	0
+	^	19	1
+	.	19	0
+	+	18	0
+	+	19	0
 
-> /tmp/crontab.kS9IB9/crontab
-	"	29	5
-	^	29	6
-	.	29	5
-	+	29	5
+> /tmp/crontab.VyC9DP/crontab
+	"	19	1
+	^	19	2
+	.	19	1
+	+	18	1
+	+	19	1
 
-> /tmp/crontab.RhWe5Q/crontab
-	"	29	0
-	^	29	1
-	.	29	0
-	+	29	0
+> /tmp/crontab.U7VpHm/crontab
+	"	19	0
+	^	19	1
+	.	19	0
+	+	18	0
+	+	19	0
 
-> /tmp/crontab.lmWaqd/crontab
-	"	29	5
-	^	29	6
-	.	29	5
-	+	29	5
+> /tmp/crontab.GSVJ5s/crontab
+	"	19	1
+	^	19	2
+	.	19	1
+	+	19	48
+	+	18	1
+	+	19	1
 
-> /tmp/crontab.Zp1Xqj/crontab
-	"	29	3
-	^	29	4
-	.	29	3
-	+	29	3
+> /tmp/crontab.LaqFR2/crontab
+	"	4	0
 
-> /tmp/crontab.vVuk71/crontab
-	"	29	3
-	^	29	4
-	.	29	3
-	+	29	3
+> /tmp/crontab.s04r9A/crontab
+	"	18	1
+	^	18	2
+	.	18	1
+	+	19	0
+	+	18	36
+	+	19	1
+	+	18	1
 
-> /tmp/crontab.zeNKYY/crontab
-	"	30	0
-	^	30	1
-	.	30	0
-	+	29	3
-	+	30	0
-
-> ~/develop/ping_it.sh
-	"	17	22
-	^	17	23
-	.	17	22
-	+	1	15
-	+	1	0
-	+	38	0
-	+	1	15
-	+	37	0
-	+	24	29
-	+	17	23
-	+	37	7
-	+	31	5
-	+	29	5
-	+	29	5
-	+	31	7
-	+	36	5
-	+	1	0
-	+	28	96
-	+	29	0
-	+	28	94
-	+	29	0
-	+	28	5
-	+	17	36
-	+	17	0
-	+	31	65
-	+	33	7
-	+	31	70
-	+	36	16
-	+	24	29
-	+	36	0
-	+	33	63
-	+	25	21
-	+	31	74
-	+	33	67
-	+	31	76
-	+	17	35
+> ~/develop/camera_panasonic.sh
+	"	33	0
+	^	34	43
+	.	34	0
+	+	4	21
+	+	6	21
+	+	32	108
+	+	6	0
+	+	4	4
+	+	32	75
+	+	6	20
+	+	32	110
+	+	6	0
+	+	32	20
+	+	35	7
+	+	32	3
+	+	9	4
 	+	35	0
-	+	31	0
-	+	32	33
-	+	34	27
-	+	17	22
+	+	12	51
+	+	14	2
+	+	12	51
+	+	15	11
+	+	16	7
+	+	15	5
+	+	16	10
+	+	32	0
+	+	32	0
+	+	32	0
+	+	8	69
+	+	32	3
+	+	20	65
+	+	24	0
+	+	22	19
+	+	20	57
+	+	24	22
+	+	22	20
+	+	21	53
+	+	32	68
+	+	21	28
+	+	22	0
+	+	26	0
+	+	24	0
+	+	22	0
+	+	23	84
+	+	21	52
+	+	5	13
+	+	11	0
+	+	9	13
+	+	10	15
+	+	11	2
+	+	27	0
+	+	26	20
+	+	10	15
+	+	10	15
+	+	32	129
+	+	32	0
+	+	19	45
+	+	32	29
+	+	32	41
+	+	21	59
+	+	29	147
+	+	32	3
+	+	29	135
+	+	30	3
+	+	29	123
+	+	32	0
+	+	28	0
+	+	32	0
+	+	32	16
+	+	30	10
+	+	32	3
+	+	31	8
+	+	32	0
+	+	31	18
+	+	32	0
+	+	31	8
+	+	35	0
+	+	34	47
+	+	36	77
+	+	34	7
+	+	34	0
 
-> /tmp/crontab.2s0ZWV/crontab
+> ~/bin/vlc_video_capture.sh
+	"	10	35
+	^	6	36
+	.	6	35
+	+	4	9
+	+	5	0
+	+	4	0
+	+	5	23
+	+	6	22
+	+	5	0
+	+	6	53
+	+	10	0
+	+	6	83
+	+	10	0
+	+	9	0
+	+	6	0
+	+	9	87
+	+	11	0
+	+	9	0
+	+	6	148
+	+	7	0
+	+	6	114
+	+	8	35
+	+	6	0
+	+	8	0
+	+	6	35
+
+> /tmp/crontab.Q3hGI1/crontab
+	"	18	0
+	^	18	1
+	.	18	0
+	+	18	0
+
+> /tmp/crontab.ddzTTg/crontab
+	"	18	0
+	^	18	1
+	.	18	0
+	+	18	35
+	+	17	36
+	+	18	0
+
+> ~/develop/webserv/task.py
+	"	3	15
+	^	7	16
+	.	7	12
+	+	1	25
+	+	7	12
+	z	7	15
+
+> ~/develop/webserv/test.py
+	"	8	1
+	^	8	2
+	.	8	1
+	+	1	25
+	+	5	18
+	+	1	0
+	+	5	17
+	+	4	4
+	+	1	24
+	+	6	0
+	+	4	4
+	+	8	1
+	z	8	1
+
+> ~/develop/webserv/tasks.py
+	"	4	0
+
+> ~/develop/test.py
 	"	3	0
+
+> ~/develop/webserv/.gitignore
+	"	1	4
+	^	1	5
+	.	1	4
+	+	1	4
+
+> ~/develop/webserv/celeryconfig.py
+	"	6	22
+	^	6	30
+	.	6	22
+	+	7	17
+	+	6	22
+	z	6	22
+
+> ~/develop/webserv/hello_world.py
+	"	9	30
+	^	9	31
+	.	9	30
+	+	1	14
+	+	1	13
+	+	1	14
+	+	10	64
+	+	1	24
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	2	0
+	+	9	30
+	z	9	30
+
+> ~/develop/hello_world.py
+	"	1	0
+
+> ~/develop/pip/ez.py
+	"	382	19
+	^	382	20
+	.	382	17
+	+	1	8
+	+	382	17
+	z	382	19

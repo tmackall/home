@@ -1,0 +1,33 @@
+[user]
+	email = mackall.tom@gmail.com
+	name = Tom Mackall
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+    ui = auto
+    interactive = auto
+[color "branch"]
+        current = yellow reverse
+        local = yellow
+        remote = green
+[color "diff"]
+        meta = yellow bold
+        frag = magenta bold
+        old = red bold
+        new = green bold
+[color "status"]
+        added = yellow
+        changed = green
+        untracked = cyan
+[alias]
+       st = status
+       ci = commit
+       co = checkout
+       sh = show-branch
+       br = branch
+       so = "remote show origin"
+       pu = !"git fetch origin -v; git merge origin/master"
+    
+[core]
+	editor = vim
