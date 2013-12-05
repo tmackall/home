@@ -39,4 +39,8 @@ temp/
 .viminfo
 .vim_runtime/temp_dirs/
 sent
+.virtualenvs/
+foo/
+mackall_house/
+pistore.desktop
     
