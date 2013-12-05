@@ -1,5 +1,5 @@
-set imap_user="set imap_user="mackall.tom@gmail.com"
-set imap_pass="templeAve1"
+set imap_user="set imap_user="mackall.house@gmail.com"
+set imap_pass="laceyCt1"
 
 set spoolfile=imaps://imap.gmail.com:993/INBOX
 set folder=imaps://imap.gmail.com:993
@@ -21,8 +21,8 @@ ignore "DKIM-Signature:"
 
 hdr_order Date From To Cc
 
-set from="mackall.tom@gmail.com"
-set realname="Tom Mackall"
+set from="mackall.house@gmail.com"
+set realname="Mackall House person"
 set editor='vim'
 
 unset imap_passive
@@ -31,5 +31,5 @@ set imap_keepalive=300
 set markers=no
 
 #
-set smtp_url="smtp://mackall.tom@smtp.gmail.com:587/"
-set smtp_pass="templeAve1"
+set smtp_url="smtp://mackall.house@smtp.gmail.com:587/"
+set smtp_pass="laceyCt1"
