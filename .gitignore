@@ -35,3 +35,8 @@ django/
 django_dev/
 ftp/
 temp/
+.vim_mru_files
+.viminfo
+.vim_runtime/temp_dirs/
+sent
+    
