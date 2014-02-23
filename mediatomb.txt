@@ -1,2 +1,0 @@
-sudo service mediatomb restart
-sudo vi /etc/mediatomb/config.xml
