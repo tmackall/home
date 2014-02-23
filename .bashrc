@@ -108,7 +108,6 @@ export PATH=/home/tmackall/bin:/usr/lib/python2.7/dist-packages/django/bin:$PATH
 export PATH=$PATH:$HOME/.opam/system/bin
 export PYTHONPATH=${MY_HOME}/bin/libPython:${MY_HOME}/develop/libPython:$PYTHONPATH
 source ${MY_HOME}/.gitaliases
-export DJANGO_HOME="/usr/lib/python2.7/dist-packages/django"
 
 #
 # Camera env vars
