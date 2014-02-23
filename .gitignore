@@ -41,7 +41,8 @@ pistore.desktop
 .pylint.d/
 .selected_editor
 sent
-.ssh/
+.ssh/id_*
+.ssh/auth*
 t
 temp/
 .viminfo
