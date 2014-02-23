@@ -41,6 +41,7 @@ pistore.desktop
 sent
 .ssh/id_*
 .ssh/auth*
+.ssh/known*
 t
 temp/
 .viminfo
