@@ -2,7 +2,6 @@
 apache/
 .bash_history
 .bash_logout
-.bashrc
 bin/
 .cache/
 .config/
