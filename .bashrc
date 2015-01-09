@@ -116,5 +116,6 @@ export CAMERA_XML="${CAMERA_HOME}/cameras.xml"
 
 alias ss="sudo salt"
 alias saltu="sudo salt \\* pkg.refresh_db"
+alias sk="sudo salt-key"
 
 
