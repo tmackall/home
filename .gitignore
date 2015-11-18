@@ -57,3 +57,14 @@ temp/
 .grive
 .compiz/
 .neocomplcache/
+.wemo/
+Desktop/
+aws.pem
+go/
+lnx-core.sls
+relay.cgi
+t.out
+tasks.py
+views.py
+vim.tar
+wstest/

@@ -118,4 +118,11 @@ alias ss="sudo salt"
 alias saltu="sudo salt \\* pkg.refresh_db"
 alias sk="sudo salt-key"
 
-
+#
+# vim - aliases
+alias vimf="vim -u NONE"
+alias vims="sudo vim -u NONE"
+#
+# google drive
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
