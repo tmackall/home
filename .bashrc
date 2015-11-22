@@ -121,7 +121,7 @@ alias sk="sudo salt-key"
 #
 # vim - aliases
 alias vimf="vim -u NONE"
-alias vims="sudo vim -u NONE"
+alias vimfs="sudo vim -u NONE"
 #
 # google drive
 export GOPATH=$HOME/go
