@@ -125,4 +125,4 @@ alias vims="sudo vim -u NONE"
 #
 # google drive
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin:/usr/lib/nagios/plugins
