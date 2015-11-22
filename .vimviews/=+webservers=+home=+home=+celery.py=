@@ -1,0 +1,198 @@
+let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
+argglobal
+let s:cpo_save=&cpo
+set cpo&vim
+inoremap <buffer> <silent> <Nul> =pymode#rope#complete(0)
+inoremap <buffer> <silent> <C-Space> =pymode#rope#complete(0)
+nnoremap <buffer> <silent> ra :PymodeRopeAutoImport
+xnoremap <buffer> <silent> ra :PymodeRopeAutoImport
+onoremap <buffer> <silent> ra :PymodeRopeAutoImport
+nnoremap <buffer> <silent> r1p :call pymode#rope#module_to_package()
+xnoremap <buffer> <silent> r1p :call pymode#rope#module_to_package()
+onoremap <buffer> <silent> r1p :call pymode#rope#module_to_package()
+nnoremap <buffer> <silent> rnc :call pymode#rope#generate_class()
+xnoremap <buffer> <silent> rnc :call pymode#rope#generate_class()
+onoremap <buffer> <silent> rnc :call pymode#rope#generate_class()
+nnoremap <buffer> <silent> rnp :call pymode#rope#generate_package()
+xnoremap <buffer> <silent> rnp :call pymode#rope#generate_package()
+onoremap <buffer> <silent> rnp :call pymode#rope#generate_package()
+nnoremap <buffer> <silent> rnf :call pymode#rope#generate_function()
+xnoremap <buffer> <silent> rnf :call pymode#rope#generate_function()
+onoremap <buffer> <silent> rnf :call pymode#rope#generate_function()
+nnoremap <buffer> <silent> ru :call pymode#rope#use_function()
+xnoremap <buffer> <silent> ru :call pymode#rope#use_function()
+onoremap <buffer> <silent> ru :call pymode#rope#use_function()
+nnoremap <buffer> <silent> rs :call pymode#rope#signature()
+xnoremap <buffer> <silent> rs :call pymode#rope#signature()
+onoremap <buffer> <silent> rs :call pymode#rope#signature()
+nnoremap <buffer> <silent> rv :call pymode#rope#move()
+xnoremap <buffer> <silent> rv :call pymode#rope#move()
+onoremap <buffer> <silent> rv :call pymode#rope#move()
+nnoremap <buffer> <silent> ri :call pymode#rope#inline()
+xnoremap <buffer> <silent> ri :call pymode#rope#inline()
+onoremap <buffer> <silent> ri :call pymode#rope#inline()
+xnoremap <buffer> <silent> rl :call pymode#rope#extract_variable()
+xnoremap <buffer> <silent> rm :call pymode#rope#extract_method()
+nnoremap <buffer> <silent> r1r :call pymode#rope#rename_module()
+xnoremap <buffer> <silent> r1r :call pymode#rope#rename_module()
+onoremap <buffer> <silent> r1r :call pymode#rope#rename_module()
+nnoremap <buffer> <silent> rr :call pymode#rope#rename()
+xnoremap <buffer> <silent> rr :call pymode#rope#rename()
+onoremap <buffer> <silent> rr :call pymode#rope#rename()
+nnoremap <buffer> <silent> ro :call pymode#rope#organize_imports()
+xnoremap <buffer> <silent> ro :call pymode#rope#organize_imports()
+onoremap <buffer> <silent> ro :call pymode#rope#organize_imports()
+nnoremap <buffer> <silent> f :call pymode#rope#find_it()
+xnoremap <buffer> <silent> f :call pymode#rope#find_it()
+onoremap <buffer> <silent> f :call pymode#rope#find_it()
+nnoremap <buffer> <silent> d :call pymode#rope#show_doc()
+xnoremap <buffer> <silent> d :call pymode#rope#show_doc()
+onoremap <buffer> <silent> d :call pymode#rope#show_doc()
+nnoremap <buffer> <silent> g :call pymode#rope#goto_definition()
+xnoremap <buffer> <silent> g :call pymode#rope#goto_definition()
+onoremap <buffer> <silent> g :call pymode#rope#goto_definition()
+nnoremap <buffer> <silent> ,b :call pymode#breakpoint#operate(line('.'))
+xnoremap <buffer> <silent> ,r :PymodeRun
+nnoremap <buffer> <silent> ,r :PymodeRun
+onoremap <buffer> C :call pymode#motion#select('^\s*class\s', 0)
+xnoremap <buffer> <silent> K :call pymode#doc#show(@*)
+nnoremap <buffer> <silent> K :call pymode#doc#find()
+onoremap <buffer> M :call pymode#motion#select('^\s*def\s', 0)
+xnoremap <buffer> [M :call pymode#motion#vmove('^\s*def\s', 'b')
+xnoremap <buffer> [[ :call pymode#motion#vmove('^\(class\|def\)\s', 'b')
+onoremap <buffer> [M :call pymode#motion#move('^\s*def\s', 'b')
+onoremap <buffer> [C :call pymode#motion#move('^\(class\|def\)\s', 'b')
+onoremap <buffer> [[ :call pymode#motion#move('^\(class\|def\)\s', 'b')
+nnoremap <buffer> [M :call pymode#motion#move('^\s*def\s', 'b')
+nnoremap <buffer> [C :call pymode#motion#move('^\(class\|def\)\s', 'b')
+nnoremap <buffer> [[ :call pymode#motion#move('^\(class\|def\)\s', 'b')
+xnoremap <buffer> ]M :call pymode#motion#vmove('^\s*def\s', '')
+xnoremap <buffer> ]] :call pymode#motion#vmove('^\(class\|def\)\s', '')
+onoremap <buffer> ]M :call pymode#motion#move('^\s*def\s', '')
+onoremap <buffer> ]C :call pymode#motion#move('^\(class\|def\)\s', '')
+onoremap <buffer> ]] :call pymode#motion#move('^\(class\|def\)\s', '')
+nnoremap <buffer> ]M :call pymode#motion#move('^\s*def\s', '')
+nnoremap <buffer> ]C :call pymode#motion#move('^\(class\|def\)\s', '')
+nnoremap <buffer> ]] :call pymode#motion#move('^\(class\|def\)\s', '')
+xnoremap <buffer> aM :call pymode#motion#select('^\s*def\s', 0)
+onoremap <buffer> aM :call pymode#motion#select('^\s*def\s', 0)
+xnoremap <buffer> aC :call pymode#motion#select('^\s*class\s', 0)
+onoremap <buffer> aC :call pymode#motion#select('^\s*class\s', 0)
+xnoremap <buffer> iM :call pymode#motion#select('^\s*def\s', 1)
+onoremap <buffer> iM :call pymode#motion#select('^\s*def\s', 1)
+xnoremap <buffer> iC :call pymode#motion#select('^\s*class\s', 1)
+onoremap <buffer> iC :call pymode#motion#select('^\s*class\s', 1)
+inoremap <buffer> <silent> . .=pymode#rope#complete_on_dot()
+let &cpo=s:cpo_save
+unlet s:cpo_save
+setlocal keymap=
+setlocal noarabic
+setlocal noautoindent
+setlocal nobinary
+setlocal bufhidden=
+setlocal buflisted
+setlocal buftype=
+setlocal nocindent
+setlocal cinkeys=0{,0},0),:,!^F,o,O,e
+setlocal cinoptions=
+setlocal cinwords=if,else,while,do,for,switch
+setlocal colorcolumn=
+setlocal comments=s1:/*,mb:*,ex:*/,://,b:#,:XCOMM,n:>,fb:-
+setlocal commentstring=#%s
+setlocal complete=.,w,b,u,t,i
+setlocal concealcursor=i
+setlocal conceallevel=2
+setlocal completefunc=neocomplcache#complete#manual_complete
+setlocal nocopyindent
+setlocal cryptmethod=
+setlocal nocursorbind
+setlocal nocursorcolumn
+setlocal cursorline
+setlocal define=
+setlocal dictionary=
+setlocal nodiff
+setlocal equalprg=
+setlocal errorformat=
+setlocal expandtab
+if &filetype != 'python'
+setlocal filetype=python
+endif
+setlocal foldcolumn=0
+setlocal foldenable
+setlocal foldexpr=pymode#folding#expr(v:lnum)
+setlocal foldignore=#
+setlocal foldlevel=0
+setlocal foldmarker={{{,}}}
+setlocal foldmethod=expr
+setlocal foldminlines=1
+setlocal foldnestmax=20
+setlocal foldtext=pymode#folding#text()
+setlocal formatexpr=
+setlocal formatoptions=tcq
+setlocal formatlistpat=^\\s*\\d\\+[\\]:.)}\\t\ ]\\s*
+setlocal grepprg=
+setlocal iminsert=0
+setlocal imsearch=0
+setlocal include=^\\s*\\(from\\|import\\)
+setlocal includeexpr=substitute(v:fname,'\\.','/','g')
+setlocal indentexpr=pymode#indent#get_indent(v:lnum)
+setlocal indentkeys=!^F,o,O,<:>,0),0],0},=elif,=except
+setlocal noinfercase
+setlocal iskeyword=@,48-57,_,192-255
+setlocal keywordprg=pydoc
+setlocal nolinebreak
+setlocal nolisp
+setlocal list
+setlocal makeprg=
+setlocal matchpairs=(:),{:},[:]
+setlocal modeline
+setlocal modifiable
+setlocal nrformats=octal,hex
+setlocal number
+setlocal numberwidth=4
+setlocal omnifunc=pythoncomplete#Complete
+setlocal path=
+setlocal nopreserveindent
+setlocal nopreviewwindow
+setlocal quoteescape=\\
+setlocal noreadonly
+setlocal norelativenumber
+setlocal norightleft
+setlocal rightleftcmd=search
+setlocal noscrollbind
+setlocal shiftwidth=4
+setlocal noshortname
+setlocal nosmartindent
+setlocal softtabstop=0
+setlocal spell
+setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
+setlocal spellfile=
+setlocal spelllang=en
+setlocal statusline=%!airline#statusline(1)
+setlocal suffixesadd=.py
+setlocal swapfile
+setlocal synmaxcol=3000
+if &syntax != 'python'
+setlocal syntax=python
+endif
+setlocal tabstop=4
+setlocal tags=
+setlocal textwidth=0
+setlocal thesaurus=
+setlocal undofile
+setlocal nowinfixheight
+setlocal nowinfixwidth
+setlocal nowrap
+setlocal wrapmargin=0
+20
+normal! zo
+let s:l = 22 - ((21 * winheight(0) + 11) / 22)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+22
+normal! 048|
+lcd /webservers/home/home
+let &so = s:so_save | let &siso = s:siso_save
+doautoall SessionLoadPost
+" vim: set ft=vim :

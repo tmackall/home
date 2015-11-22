@@ -45,7 +45,8 @@ sent
 .ssh/known*
 t
 temp/
-.vim*
+.vimbackup/
+.vimundo/
 .virtualenvs/
 .Xauthority
 .xsession-errors
