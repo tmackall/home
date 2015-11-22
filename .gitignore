@@ -43,7 +43,6 @@ sent
 .ssh/id_*
 .ssh/auth*
 .ssh/known*
-.spf*
 t
 temp/
 .vim*
