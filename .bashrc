@@ -126,3 +126,17 @@ alias vimfs="sudo vim -u NONE"
 # google drive
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin:/usr/lib/nagios/plugins
+
+# AndroidDev PATH
+export PATH=${PATH}:~/android-sdk-linux/tools
+export PATH=${PATH}:~/android-sdk-linux/platform-tools
+
+# prompt
+export PS1="\h \W> "
+
+#
+# light switch aliases
+alias lon='~tmackall/bin/lights_on_off.py'
+alias loff='~tmackall/bin/lights_on_off.py --off'
+alias con='camera_on_off.sh -y -c "ss03 ss01"'
+alias coff='camera_on_off.sh -n -c "ss03 ss01"'

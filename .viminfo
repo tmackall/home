@@ -8,210 +8,420 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/.vim
+~MSle0~/pi-study
 
 # Last Substitute Search Pattern:
-~MSle0&^ *
+~MSle0& \+$
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:w
 :q
-:60,$s/^ *//
+:w
+:q!
+:set nopaste
 :set paste
+:paste
+:'<,'>w!
+:'<,'>w
+:4,20y
+:Lw
+:16,$d
+:13,23d
+:%s/ \+$//
+:39,$s/^/    /
+:%s/palidrome/palindrome/g
+:ls
+:s/,/, /g
+:W
+:L
+:6,8s/dir_top/dir_in/g
+:e inherit02.py
+:pwd
+:set pastee
+:"q
+:%d
+:e 
+:b1
+:e docker/files/config
+:b2
+:we
+:e ../top.sls
+:32,43d
+:10,33d
+:1,6d
+:e docker/init.sls
+:8,$s/^  //
+:sp ../top.sls
+:sp ../debian/pi.sls
+:w!
+:70,77y
+:sp
+:e ../common/core.sls
+:55,61y
+:56,$s/^/#/
+:e
+:25,$s/^#//
+:29,40s/^/#/
+:42,$s/^/#/
+:49,$d
+:25,$d
+:25,41d
+:e common/ws-consumer.sls
+:34,38y
+:71,80d
+:45,64y
+:ww
+:b3
+:48,51y
+:18,27y
+:18,27yt
+:20,27y
+:30,48s/^#//
+:on
+:'<,'>on
+:e ../django_mackall/urls.py
+:e urls.py
+:28,42s/^/#/
+:b10
+:10,22y
+:e ../django_mackall/settings.py
+:bd
+:e serializers.py
+:e ../devices/views.py
+:sp 
+:64,$d
+:39,51y
+:33,38y
+:32,37y
+:e ../devices/models.py
+:19,29y
+:s/\t\+/ /
+:s/ \+/ /
+:s/\t*/ /
+:s/ */ /
+:3,8s/\n/ /
+:sp models.py
+:'<,'>q
+:54,78d
+:sp wemo.py
+:57,81s/^/#/
+:16,21s/^/    /
+:38,41s/^/#/
+:59,62s/^/#/
+:44,51s/^/#/
+:20,38s/put/PUT/
+:e libPython/lib_snmp.py
+:pw
+:23,38s/:8051//
+:set nu
+://biglamp/cgi-bin/relay.cgi?on
+:112,125d
+:b4
+:e models.py
+:sp tasks.py
+:%s/\/home\/tmackall\/bin\/wemo.py/curl 192.168.1.18:8051\/devices\/all\/on\/ -X put/
+:e devices_tasks.conf
+:w devices_tasks.conf
+:50,57s/^/    /
+:v
+:82,$d
+:59,82y
+:84,97y
+:17,21s/^/    /
+:19,23s/^    //
+:15,18s/^/#/
+:e 2
+:65,70d
+:59,75d
+:b6
+:59,$s/^    //
+:24,40d
+:e urls
+:25,40s/^    //
+:25,40s/^/    /
+:e views.py
+:call flake8#Flake8UnplaceMarkers()
+:wq
+:b11
+:70,82y
+:16,20s/self\.//g
+:16,20s/self\.//
+:16,20s/^    //
+:e tasks.py
+:bq1
+:bd!
+:db
+:33,$s/user/device/g
+:33,$s/User/Device/g
+:13,31s/^/#/
+:sey paste
+:sp urls.py
+:34,51d
+:b`
+:22,34y
+:36,46y
+:%s/192.168.1.35/vwclock/g
+:%s/192.168.1.12/espresso/g
+:%s/192.168.1.26/barlights/g
+:%s/192.168.1.40/biglamp/g
+:14,19s/env/self.env/g
+:9,28s/__list/list/g
+:9,28s/__env/env/g
+:s/default/devices/g
+:e ../django_mackall/celery.py
+:b16
+:b21
+:e celery.py
+:Lb1
+:31,42d
+:31,44s/^/    /
+:19,32y
+:21,29s/^/    /
+:31,44d
+:17,19s/env/__env__/g
+:9,17y
+:sp ~/bin/wemo.py
+:e __init__.py
+:set paster
+:qa
+:%s/light/device/g
+:%s/Light/Device/g
+:82,87y
+:set opaste
+:b8
+:%s/snippet/light/g
+:%s/lnippet/light/g
+:%s/Snippet/Light/g
+:'<,'>%d
+:s/snippet/light/g
+:s/Snippet/Light/g
+:6,$y
+:sp ../lights/models.py
+:b20
+:24,31s/^/# /
+:b12
+:e /django/django_home/lights/templates/base.html
+:14,$s/^/    /
+:15,19s/item/node_in/g
+:89,102s/maxDepth/depth_max/g
+:89,102s/depthStack/stack_depth/g
+:89,102s/nodeStack/stack_node/g
+:set no paste
+:63,69y
+:54,76s/^/#/
+:e btree02.py
+:e btree01.py
+:14,20d
+:e yield01.py
+:e ~/bin/cameras_ip/cameras.xml
+:.!
+:17,28y
+:15,26s/cls/self/g
+:27,35d
+:65,$d
+:42,50d
+:e ../tutorial/settings.py
+:1,21d
+:6,20d
+:b9
+:b5
+:23,34s/^/    /
+:e permissions.py
+:18,$d
+:4,$d
+:20,31s/^/    /
+:5,$d
+:set pase
+:48,$d
+:24,$s/^/#/
+:aet paste
+:8,25d
+:8,16d
+:e ../snippets/views.py
+:18,$y
+:37,45y
+:sp core.sls
+:e ../snippets/urls.py
+:e ../tutorial/urls.py
+:e ../snippets/models.py
+:e urls.
+:1,4d
+:w mysql.sls
+:e ../quickstart/views.py
+:e settings.py
+:5d
+:e /etc/mysql/my.cnf
+:e ws-producer.sls
+:4,12s/^/#/
+:e /srv/salt/top.sls
+:1,147d
+:e test.sls
+:w test.sls
+:e /srv/salt/common/ws-producer.sls
+:b7
+:w test.sla
+:e /srv/salt/common/core.sls
+:sp /srv/salt/common/ws-producer.sls
+:78,85s/^    //
+:e core.sls
+:69,74y
+:'<,'>qa
+:%y
+:do
+:qa!
+:'<,'>q!
+:e receive.py
+:sp decorator01.py
+:15,18s/(/[/g
+:15,18s/)/]/g
+:e ~/.vimrc
+:15,18s/\)/\]/
+:49,56y
+:za
+:zc
+:zM
+:set mouse=v
+:30,31s/left/right/g
+:27,34s/^    //
+:29,35d
+:36,43s/^    //
+:13,25s/^    //
+:42,44s/left/right/g
+:22,26s/left/right/g
+:16,20y
+:3,7s/^    //
+:12,16s/^/    /
+:set wrap linebreak nolist
+:set wrap
+:43,46s/^/#/
+:17,34s/^/#/
+:%s/switch_on_off/switch_set/g
+:9,18y
+:16,29y
+:13,21d
+:sp snmpTest.py
+:40,45s/^/    /
+:39,44s/^    //
+:sp ~/.vimrc
+:sp main02.py
+:%s/^/rm -rf /
+:2066,$d
+:scriptnames
+:44,48s/tree/node/g
+:w:w
+:q!~
+:28,31y
+:60,$s/^ *//
 :10,26d
 :2,13d
 :set filetype?
 :1,5s/^/#/
 :e ws-consumer.sls
 :e common/core.sls
-:%s/^/rm -rf /
-:736,$d
-:976,$d
-:w!
-:e debian.sls
-:124,$y
-:130,$d
-:e ubuntu.sls
-:77,$d
-:72,83d
-:115,119y
-:q!
-:wq
-:48,52s/31/26/
-:46,62s/^/  /
-:e add.conf
-:10,18d
-:83,88y
-:set nopaste
-:set pastew
-:60,70d
-:7,12d
-:sp
-:spo
-:e ../top.sls
-:e core.sls
-:84,95d
-:84,95
-:72,88d
-:57,76d
-:b2
-:sp 
-:7,18d
-:e common/ubuntu.sls
-:pw
-:e to
-:99,$d
-:88,105d
-:52,67d
-:15,24d
-:25,36d
-:37,55d
-:w! ubuntu.sls
-:w ubuntu.sls
-:w! core.sls
-:w core.sls
-:e common/ws-tmac.sls
-:sp common/ws-tmac.sls
-:'<,'>q!
-:pwd
-:b15
-:b5
-:b1
-:e __init__.py
-:30,48d
-:53,757d
-:set nop[aste
-:769,$d
-:e api/views.py
-:e urls.py
-:e settings.py
-:8,17d
-:51,$d
-:42,49d
-:39,47d
-:30,51d
-:27,39d
-:Lw
-:e ~/.bashrc
-:27,29y
-:e ../.git/config
-:112,119d
-:165,171d
-:on
-:195,$s/^/#/
-:b3
-:ls
-:13,18d
-:171,181y
-:159,169y
-:171,$d
-:146,172d
-:sp ws-tmac.sls
-:e common/debian.sls
-:q1
-:%s/logger/LOGGER/
-:%s/logger/LOGGER/g
-:13,21y
-:48,52s/\.40/.31/
-:43,47y
-:%s/^/rm -rf / 
-:4560,$d
-:1,4560d
-:%s/.* /rm /
-:4973,$d
-:%s/.*2014/rm -rf 2014/
-:%s/.*2015/rm -rf 2015/
-:5255,$d
-:set no paste
-:%s/command/device/g
-:17,30y
-:68,86s/ps01/ss01/g
-:17,35s/wemo -f switch/\/home\/tmackall\/bin\/wemo_tmac.sh/
-:Q
-:18,33s/wemo/wemo -f/
-:%s/ *$//
-:33,45d
-:17,30s/^/#/
-:set wrap
-:e base.html
-:%s/verdana/monaco/g
-:%s/gunicorn/audio/g
-:e audio_house/settings.py
-:sp core.sls
-:sp ~/bin/raspberry_setup.sh
-:%s/^/ rm -rf /
-:15671,$d
-:%s/.* 2014/2014/ 
-:31,36s/^/#/
-:qa
-:a
-:s/ //g
-:3,37y
-:sp text_message.sh
-:5,9d
-:sp ../minion_status_check.sh
-:sp /tmp/cameras.xml
-:e detect_ftp_files.sh
-:%s/.$//
-:%s/#-/# /
-:e cameras_ip/camera_file_check.py
-:sp detect_ftp_files.sh
-:sp /tmp/ip_external.txt
-:sp /etc/supervisor/conf.d/gunicorn.conf
-:w! /tmp/t
-:w /tmp/t
-:sp ../urls.py
-:sp api/views.py
-:e audio_house/api/views.py
-:.,.+2w
-:sp audio_house/settings.py
-:e gunicorn_run.sh
-:sp /services/audio/audio_house/audio_house/settings.py
-: sp audio_house/urls.py
-:sp ../../audio_house/audio_house/settings.py
-:sp /etc/nginx/sites-available/
-:sp t
-:s/(//g
-:s/):/,/g
-:s/,/:/g
-:sp ~/bin/libPython/lib_audio.py
-:%s/LibAudio/lib_audio_object/g
-:%s/lib_audio_object/LibAudio/g
-:e ../../api/views.py
-:e index.html
-:sp ../templates/audio/base.html
-:26,$s/audio_lib/lib_audio_object/g
-:e views.py
-:e api/models.py
-:e ../settings.py
-:e admin.py
-:e
-: sp ~/bin/libPython/lib_audio.py
-:e views
-:sp models.py
-:sp ~/bin/libPython/lib_pps.py
-:%s/systemDesc/system_desc/g
-:%s/systemName/system_name/g
-:%s/audioCommand/AudioCommand/g
-:sp views.py
-:%s/LIB_AUDIO/LibAudio/g
-:%s/\.vol_control/.VOL_CTL/g
-:%s/\.avr/.AVR/g
-:%s/\.amp/.AMP/g
-:12,$s/LIB_AUDIO/LibAudio/g
-:22,$s/audio_commands/COMMANDS/g
-:22,$/audio_commands/COMMANDS/g
-:3,11d
-:%s/mackall_house/audio_house/g
 
 # Search String History (newest to oldest):
+?/pi-study
+?/pi-stu
+?/pi-s
+?/\.33
+?/pi
+?/33
+? \s\+$
+?  \+$
+? ^
+? palidrome
+?/palin
+? ,
+? dir_top
+? ^  
+? ^#
+?/states
+?/debug
+? \t\+
+?  \+
+? \t*
+?  *
+? \n
+? \<return\>
+?/dumps
+?/dumos
+?/75
+? put
+? :8051
+?/set_a
+?/status
+? \/home\/tmackall\/bin\/wemo.py
+??P<name>.*)
+?/timeout
+? ^    
+?/flake
+?/Flake
+? self\.
+?/val_
+?/RESU/
+?/cabi
+?/cabin
+? user
+? User
+?/rabb
+? 192.168.1.35
+? 192.168.1.12
+? 192.168.1.26
+? 192.168.1.40
+?/virt
+? env
+? __list
+? __env
+? default
+??Envir
+?/celery/
+?/bind
+?/client
+?/lights
+? light
+? Light
+?/frame
+? snippet
+? lnippet
+? Snippet
+??REST_
+?/TEMPL
+?///
+?/my
+? item
+? maxDepth
+? depthStack
+? nodeStack
+?/find
+?/videos
+?/~
+? cls
+?/pass
+?/mysql/
+?/mysql
+??>
+?/mys/
+?/vox
+?/vim-vox
+? (
+? )
+? \)
+?/fold
+?/mouse
+?/visual
+? \<print\>
+? left
+? switch_on_off
+?/autoclose
+?/inoremap
+??11-20
+? tree
+??MackallB
 ?/.vim
 ?/.spf
 ? ^ *
-? ^
 ??10-15
 ??10-01
 ?/11-01/
@@ -219,98 +429,19 @@ $
 ?/timeo
 ?/Node
 ? 31
-? \s\+$
 ?/ge
 ?/pycurl
 ?/python-software-properties
 ?/ys
 ?/pat
 ?/pip
-?/debug
-?/DEBUG
-??^def
-?/turbog
-?/django_i
-? '\*':
-?/origin/
-? logger
-? \.40
-?/disk1
-?/local_root
-?/disk
-? .* 
-?/Apr
-? .*2014
-? .*2015
-?/Feb ::5255,$d
-? command
-? ps01
-? wemo -f switch
-? wemo
-?  *$
-? \<For\>
-?/Error
-? verdana
-? gunicorn
-?/TEMP
-?/TEM
-?/mana
-?/update
-?/time
-?/rp03
-??08-01
-??0801
-? .* 2014
-?/ffff
-?  
-?/ps02
-?/acl
-?/ac0l
-?/alc
-? .$
-? #-
-?/DATA
-?/ate
-?/data
-?/roots:
-?/_root:/
-? \<reverse\>
-?/LOGG
-?/timeout
-?/NAME
-?///
-? (
-? ):
-? ,
-? LibAudio
-?/audio_comman
-? lib_audio_object
-? audio_lib
-?/audio_lib
-?/audioC
-? :
-? systemDesc
-? systemName
-? audioCommand
-? LIB_AUDIO
-? \.vol_control
-? \.avr
-? \.amp
-? audio_commands
-? mackall_house
-? =
-? \<APP\>
-?/\s\+$
-?/apache
-?/apac
-?/djan
-? app
 
 # Expression History (newest to oldest):
 =<SNR>26_SuperTab('n')
 =<SNR>25_SuperTab('n')
 
 # Input Line History (newest to oldest):
+@Ya
 @cam_nam
 @add.delay(4, 4
 @from tasks import add
@@ -320,1176 +451,2150 @@ $
 
 # Registers:
 "0	LINE	0
-	  'os:Debian':
-	    - match: grain
-	    - common.ws-consumer
+	s1 = 'stack_low'
 ""1	LINE	0
-	.vim*
+	
 "2	LINE	0
-	.spf*
+	echo 
 "3	LINE	0
-	[branch "master"]
+	444
+<|1|T7OROCICDwN3PZokeMlJVgNtPfI=|P6mCP2VOl2Nhkh+vaEIJk3I/50Q= ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==
 "4	LINE	0
-	# add ip / hostname separated by white space
+	444
+<|1|/dJYXgZhqYPSoueVq0S3Lk+41XU=|HGaafNWJgqjPA0m8dpp01kfIekQ= ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==
 "5	LINE	0
-	 
-	# no ping request
-	COUNT=1
-	 
-	# email report when
-	SUBJECT="Ping failed"
-	EMAILID="mackall.tom@gmail.com"
-	TEMP_FILE="/tmp/m"
-	count=$(ping -c $COUNT "$HOST" | grep 'received' | awk -F',' '{ print $2 }' | awk '{ print $1 }')
-	if [ $count -eq 0 ]; then
-	# 100% failed
-	    echo "Host : "$HOST" is down (ping failed) at $(date)" > ${TEMP_FILE}
-	    echo "Rebooting POE switch" >> ${TEMP_FILE}
-	    mutt $EMAILID -s "$SUBJECT" < ${TEMP_FILE}
-	    ~/bin/reboot_3com.sh
-	    exit 2
-	fi
+	444
+<|1|oKHgKMJWOqX7SeyK5vATxiCMdH0=|dB9RTDR2AOk5FeBgNyoBDM6D3hw= ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==
 "6	LINE	0
-	    # Simple SHELL script for Linux and UNIX system monitoring with
-	    # ping command
-	    # -------------------------------------------------------------------------
-	    # Copyright (c) 2006 nixCraft project <http://www.cyberciti.biz/fb/>
-	    # This script is licensed under GNU GPL version 2.0 or above
-	    # -------------------------------------------------------------------------
-	    # This script is part of nixCraft shell script collection (NSSC)
-	    # Visit http://bash.cyberciti.biz/ for more information.
-	    # -------------------------------------------------------------------------
-	    # Setup email ID below
-	    # See URL for more info:
-	    # http://www.cyberciti.biz/tips/simple-linux-and-unix-system-monitoring-with-ping-command-and-scripts.html
+	|1|VBlMfY2dgfYJtKUa2EDyyIwV3Ms=|UuO/32t96pfqp/gIFyifS6dXJRU= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIqjiDUI/I12jG3tooc67vWN4Bhsc+kiwt7Pvj7kg9qYJAuyxTW82FFJC27zVzYvVpmbcGUvjzzOlvfmKTDXCLw=
 "7	LINE	0
-	
+	|1|4gaPcBhVAQdeeHu0JzuUMgrG8ys=|kpq1r8cT/SiTC2I1T977Huy0anE= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIqjiDUI/I12jG3tooc67vWN4Bhsc+kiwt7Pvj7kg9qYJAuyxTW82FFJC27zVzYvVpmbcGUvjzzOlvfmKTDXCLw=
 "8	LINE	0
-	
+	276
+<|1|k576lg6CalWh5F/08jN+tCyUgUw=|N8LUUmAHz/JbxnOhaRFSIndu57s= ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgwCs6bxmK3RjCJ/ravUfHuveD7qTYL/LZzyxo1Qvs3xT0xOS4LWa9ID8PBLgZNcUDcvfM6FQ9J6YOiO4J8qa5KzZg7J0HHgCypuIMsNYFdKMZxX/4WXVmDcU5xzepTsBuDuSYZlxyByiM4ajPhHIexvM1QR1gNv0rNwe08HiOWHdK+/X
 "9	LINE	0
-	
+	    s = StacksSingleList(s1, s2, 10)
 "w	CHAR	0
 	wwwwwwwwwwww€kl€kli"€krx:w€kl€kl:w€kr€kr€kri{€kr€kr€kl}:w€kl€kl€kl€kl€klx€kr€kr€kr€kr€krx:w
 "-	CHAR	0
-	/disk1/github-mackall/bin.git
+	YourPass
 
 # File marks:
-'0  49  0  ~/.gitignore
-'1  48  10  ~/.gitignore
-'2  50  0  ~/.gitignore
-'3  46  0  ~/.gitignore
-'4  30  45  ~/.gitconfig
-'5  7  3  ~/bin/.gitignore
-'6  6  3  ~/bin/.gitignore
-'7  9  42  ~/bin/.git/config
-'8  11  404  ~/.ssh/authorized_keys2
-'9  7  21  ~/.git/config
+'0  1  0  /tmp/crontab.PP86P4/crontab
+'1  12  0  ~/bin/passwd_make.sh
+'2  20  14  /tmp/crontab.GONXbQ/crontab
+'3  12  0  ~/.ssh/known_hosts
+'4  9  0  ~/.ssh/known_hosts
+'5  1  0  /etc/apache2/sites-available/nagios.conf
+'6  45  34  ~/test/fitbit.py
+'7  5  0  ~/test/stack01.py
+'8  11  0  ~/test/btree01.py
+'9  1  0  ~/test/btree0
 
 # Jumplist (newest first):
--'  49  0  ~/.gitignore
--'  48  10  ~/.gitignore
--'  50  0  ~/.gitignore
--'  46  0  ~/.gitignore
--'  1  3  ~/.gitignore
--'  28  0  ~/.gitignore
--'  60  0  ~/.gitignore
--'  30  45  ~/.gitconfig
--'  7  3  ~/bin/.gitignore
--'  6  3  ~/bin/.gitignore
--'  5  0  ~/bin/.gitignore
--'  9  42  ~/bin/.git/config
--'  1  0  ~/bin/.git/config
--'  11  404  ~/.ssh/authorized_keys2
--'  10  0  ~/.ssh/authorized_keys2
--'  7  21  ~/.git/config
--'  6  0  ~/.git/config
--'  124  9  ~/.bashrc
--'  5  0  ~/.ssh/authorized_keys2
--'  1  0  ~/.git/config
--'  71  50  ~/.gitignore
--'  37  3  ~/.gitignore
--'  13  18  ~/bin/scp_aws.sh
--'  14  1  ~/bin/scp_aws.sh
--'  2  11  ~/bin/scp_aws.sh
--'  1  0  ~/bin/scp_aws.sh
--'  5  0  /srv/salt/common/ws-consumer.sls
--'  1  0  /srv/salt/common/ws-consumer.sls
--'  47  0  /srv/salt/common/core.sls
--'  15  4  /srv/salt/common/core.sls
--'  10  13  /srv/salt/top.sls
--'  12  11  /srv/salt/top.sls
--'  735  0  /disk2/video_storage/t.sh
--'  736  5  /disk2/video_storage/t.sh
--'  1  0  /disk2/video_storage/t.sh
--'  4  5  ~/test01.sh
--'  1  0  ~/test01.sh
--'  583  3  /etc/salt/master
--'  581  0  /etc/salt/master
--'  4  9  /srv/salt/scripts_ws/ws_start.sh
--'  5  9  /srv/salt/scripts_ws/ws_start.sh
--'  78  0  /etc/salt/master
--'  69  0  /etc/salt/master
--'  10  0  /etc/salt/NERD_tree_1
--'  1  0  /etc/salt/NERD_tree_1
--'  14  2  /etc/salt/NERD_tree_1
--'  1  0  /srv/salt/scripts_ws/ws_start.sh
--'  42  47  /tmp/crontab.ypZ43b/crontab
--'  1  0  /tmp/crontab.ypZ43b/crontab
--'  43  57  /tmp/crontab.gt49Vv/crontab
--'  1  0  /tmp/crontab.gt49Vv/crontab
--'  85  0  ~/bin/sensor_temp.py
--'  66  7  ~/bin/sensor_temp.py
--'  62  0  ~/bin/sensor_temp.py
--'  93  5  ~/bin/sensor_temp.py
--'  26  0  ~/bin/sensor_temp.py
--'  40  0  ~/bin/sensor_temp.py
--'  17  11  ~/bin/sensor_temp.py
--'  1  0  ~/bin/sensor_temp.py
--'  8  0  /etc/supervisor/conf.d/add.conf
--'  2  48  /etc/supervisor/conf.d/wstest.conf
--'  9  19  /etc/supervisor/conf.d/wstest.conf
--'  1  0  /etc/supervisor/conf.d/wstest.conf
--'  7  9  /srv/salt/common/core.sls
--'  7  6  /srv/salt/common/ubuntu.sls
--'  24  0  /srv/salt/common/ubuntu.sls
--'  76  0  /srv/salt/common/ubuntu.sls
--'  89  0  /srv/salt/common/ubuntu.sls
--'  31  0  /srv/salt/common/core.sls
--'  9  0  /srv/salt/common/core.sls
--'  75  0  /srv/salt/common/core.sls
--'  91  0  /srv/salt/common/core.sls
--'  55  0  /srv/salt/common/ubuntu.sls
--'  10  0  /srv/salt/common/ubuntu.sls
--'  1  0  /srv/salt/common/to
--'  13  11  /srv/salt/common/core.sls
--'  63  9  /srv/salt/common/core.sls
--'  97  0  /srv/salt/common/core.sls
--'  89  6  /srv/salt/common/core.sls
--'  51  0  /srv/salt/common/core.sls
--'  16  0  /srv/salt/common/core.sls
--'  3  0  /srv/salt/common/core.sls
--'  1  0  /srv/salt/common/core.sls
--'  3  17  /srv/salt/top.sls
--'  35  6  /srv/salt/common/ws-tmac.sls
--'  34  3  /srv/salt/common/ws-tmac.sls
--'  7  7  /srv/salt/.git/config
--'  1  0  /srv/salt/.git/cvo
--'  3  12  /wstest/.gitignore
--'  2  3  /wstest/.gitignore
--'  1  0  /wstest/.gitignore
--'  52  26  /wstest/wstest/api/views.py
--'  26  0  /wstest/wstest/settings.py
--'  45  35  /wstest/wstest/settings.py
--'  82  52  /wstest/wstest/settings.py
--'  56  34  /wstest/wstest/settings.py
--'  46  0  /wstest/wstest/settings.py
--'  71  0  /wstest/wstest/settings.py
--'  43  26  /wstest/wstest/api/views.py
+-'  1  0  /tmp/crontab.PP86P4/crontab
+-'  12  0  ~/bin/passwd_make.sh
+-'  1  0  ~/bin/passwd_make.sh
+-'  20  14  /tmp/crontab.GONXbQ/crontab
+-'  1  0  /tmp/crontab.GONXbQ/crontab
+-'  12  0  ~/.ssh/known_hosts
+-'  9  0  ~/.ssh/known_hosts
+-'  1  0  ~/.ssh/known_hosts
+-'  10  210  ~/.ssh/known_hosts
+-'  8  0  ~/.ssh/known_hosts
+-'  1  0  /etc/apache2/sites-available/nagios.conf
+-'  45  34  ~/test/fitbit.py
+-'  41  2  ~/test/fitbit.py
+-'  1  2  ~/test/fitbit.py
+-'  5  0  ~/test/stack01.py
+-'  33  28  ~/test/stack01.py
+-'  14  8  ~/test/stack01.py
+-'  1  0  ~/test/stack01.py
+-'  11  0  ~/test/btree01.py
+-'  51  21  ~/test/btree01.py
+-'  1  0  ~/test/btree0
+-'  5  0  ~/test/bsort02.py
+-'  32  10  ~/test/bsort02.py
+-'  22  16  ~/test/bsort01.py
+-'  17  20  ~/test/bsort01.py
+-'  1  0  ~/test/bsort01.py
+-'  40  11  ~/test/inherit02.py
+-'  41  7  ~/test/inherit02.py
+-'  14  16  ~/test/inherit02.py
+-'  24  0  ~/test/abc01.py
+-'  32  8  ~/test/abc01.py
+-'  34  21  ~/test/abc01.py
+-'  17  13  ~/test/abc01.py
+-'  15  4  ~/test/odd_even_prob.py
+-'  7  0  ~/test/odd_even_prob.py
+-'  1  0  ~/test/odd_even_prob.py
+-'  9  9  ~/test/serializer01.py
+-'  1  0  ~/test/serializer01.py
+-'  3  43  ~/test/prime01.py
+-'  1  0  ~/test/prime01.py
+-'  4  0  ~/test/palindrome01.py
+-'  47  0  ~/test/palindrome01.py
+-'  50  10  ~/test/palindrome01.py
+-'  38  25  ~/test/palindrome01.py
+-'  10  0  ~/test/palindrome01.py
+-'  7  0  ~/test/palindrome01.py
+-'  42  15  ~/test/palindrome01.py
+-'  44  15  ~/test/palindrome01.py
+-'  39  26  ~/test/palindrome01.py
+-'  35  15  ~/test/palindrome01.py
+-'  19  4  ~/test/palindrome01.py
+-'  1  0  ~/test/palindrome01.py
+-'  13  22  ~/test/list01.py
+-'  9  6  ~/test/list01.py
+-'  1  0  ~/test/list01.py
+-'  42  0  ~/test/string01.py
+-'  40  21  ~/test/string01.py
+-'  17  1  ~/test/string01.py
+-'  1  0  ~/test/string01.py
+-'  32  53  ~/test/slice01.py
+-'  3  0  ~/test/slice01.py
+-'  33  13  ~/test/slice01.py
+-'  12  47  ~/test/recursion_dir.py
+-'  1  0  ~/test/slice01.py
+-'  34  0  ~/test/inherit01.py
+-'  35  0  ~/test/inherit01.py
+-'  13  0  ~/test/inherit02.py
+-'  1  0  ~/test/inherit01.py
+-'  11  0  ~/test.py
+-'  1  12  ~/test.py
+-'  76  0  /srv/salt/debian/pi.sls
+-'  3  0  /srv/salt/debian/pi.sls
+-'  48  0  /srv/salt/ubuntu/docker.sls
+-'  8  0  /srv/salt/ubuntu/docker/files/config
+-'  43  27  /srv/salt/ubuntu/docker.sls
+-'  8  25  /srv/salt/top.sls
+-'  4  18  /srv/salt/top.sls
+-'  1  4  /srv/salt/ubuntu/docker.sls
+-'  42  4  /srv/salt/ubuntu/docker.sls
+-'  10  0  /srv/salt/ubuntu/docker.sls
+-'  29  0  /srv/salt/docker/init.sls
+-'  1  0  /etc/apt/sources.list.d/docker.list
+-'  108  0  /tmp/crontab.brzras/crontab
+-'  1  0  /tmp/crontab.brzras/crontab
+-'  44  0  /tmp/crontab.sfzRO4/crontab
+-'  1  0  /tmp/crontab.sfzRO4/crontab
+-'  108  0  /tmp/crontab.SHO8Ud/crontab
+-'  3  0  /tmp/crontab.SHO8Ud/crontab
+-'  1  0  /tmp/crontab.SHO8Ud/crontab
+-'  1  0  /tmp/crontab.genz68/crontab
+-'  45  34  ~/test/fitbit.py
+-'  41  2  ~/test/fitbit.py
+-'  1  2  ~/test/fitbit.py
+-'  5  0  ~/test/stack01.py
+-'  33  28  ~/test/stack01.py
+-'  14  8  ~/test/stack01.py
+-'  1  0  ~/test/stack01.py
+-'  11  0  ~/test/btree01.py
+-'  51  21  ~/test/btree01.py
 
 # History of marks within files (newest to oldest):
 
-> ~/.gitignore
-	"	49	0
-	^	49	1
-	.	49	0
-	+	71	0
-	+	70	4
-	+	60	0
-	+	46	0
-	+	50	0
-	+	48	10
-	+	49	0
+> /tmp/crontab.PP86P4/crontab
+	"	1	0
 
-> ~/.gitconfig
-	"	30	45
+> ~/bin/passwd_make.sh
+	"	12	0
+	^	12	6
+	.	13	0
+	+	5	18
+	+	6	36
+	+	8	1
+	+	1	3
+	+	5	22
+	+	5	13
+	+	9	9
+	+	10	0
+	+	11	45
+	+	12	5
+	+	13	0
 
-> ~/bin/.gitignore
-	"	7	3
-	^	7	4
-	.	7	3
-	+	6	3
-	+	7	3
+> /tmp/crontab.GONXbQ/crontab
+	"	20	14
+	^	20	15
+	.	20	14
+	+	20	14
 
-> ~/bin/.git/config
-	"	9	42
-	^	9	43
-	.	9	42
-	+	9	42
+> ~/.ssh/known_hosts
+	"	12	0
+	.	13	0
+	+	9	0
+	+	13	0
 
-> ~/.ssh/authorized_keys2
-	"	11	404
-	^	11	405
-	.	11	404
-	+	10	402
-	+	11	404
+> /etc/apache2/sites-available/nagios.conf
+	"	1	0
 
-> ~/.git/config
-	"	7	21
-	^	7	22
-	.	7	21
-	+	7	42
-	+	6	0
+> ~/test/fitbit.py
+	"	45	34
+	^	45	35
+	.	45	34
+	+	1	3
+	+	1	16
+	+	1	3
+	+	1	43
+	+	1	37
+	+	1	69
+	+	1	78
+	+	1	85
+	+	1	121
+	+	1	136
+	+	1	3
+	+	46	2
+	+	28	0
+	+	29	3
+	+	45	34
+	+	31	3
+	+	34	3
+	+	36	3
+	+	38	7
+	+	40	7
+	+	41	11
+	+	43	7
+	+	45	34
+
+> ~/test/stack01.py
+	"	5	0
+	^	6	0
+	.	6	0
+	+	1	16
+	+	2	38
+	+	7	33
+	+	9	33
+	+	14	20
+	+	42	14
+	+	9	0
+	+	10	35
+	+	14	23
+	+	15	30
+	+	42	0
+	+	42	0
+	+	16	14
+	+	5	0
+	+	18	3
+	+	14	20
+	+	15	20
+	+	8	0
+	+	9	47
+	+	14	19
+	+	15	19
+	+	16	34
+	+	38	4
 	+	7	21
+	+	38	21
+	+	11	21
+	+	18	23
+	+	30	0
+	+	18	31
+	+	27	0
+	+	12	19
+	+	13	19
+	+	27	19
+	+	14	25
+	+	15	28
+	+	14	24
+	+	15	31
+	+	27	0
+	+	19	8
+	+	20	0
+	+	22	32
+	+	24	0
+	+	24	0
+	+	23	8
+	+	24	29
+	+	26	30
+	+	28	19
+	+	29	23
+	+	28	13
+	+	42	0
+	+	38	9
+	+	38	37
+	+	38	13
+	+	41	9
+	+	39	13
+	+	9	48
+	+	12	23
+	+	13	23
+	+	14	23
+	+	15	23
+	+	18	29
+	+	31	14
+	+	32	15
+	+	38	27
+	+	38	11
+	+	39	11
+	+	4	12
+	+	38	30
+	+	33	36
+	+	37	22
+	+	38	0
+	+	34	0
+	+	35	0
+	+	38	3
+	+	39	3
+	+	38	13
+	+	39	13
+	+	40	0
+	+	28	13
+	+	41	7
+	+	37	43
+	+	36	28
+	+	6	0
 
-> ~/.bashrc
-	"	124	9
-	^	124	10
-	.	124	9
-	+	128	40
-	+	126	14
-	+	127	0
-	+	129	0
-	+	128	18
-	+	123	23
-	+	124	16
-	+	123	17
-	+	124	9
+> ~/test/btree01.py
+	"	11	0
+	^	11	0
+	.	11	0
+	+	9	0
+	+	41	0
+	+	62	0
+	+	11	0
 
-> ~/bin/scp_aws.sh
-	"	13	18
-	^	13	19
-	.	13	18
-	+	4	33
-	+	8	11
-	+	2	0
+> ~/test/btree0
+	"	1	0
+
+> ~/test/bsort02.py
+	"	5	0
+	^	5	0
+	.	5	0
+	+	22	0
+	+	5	0
+
+> ~/test/bsort01.py
+	"	22	16
+	^	8	0
+	.	17	0
+	+	2	3
+	+	3	26
+	+	25	25
+	+	26	30
+	+	27	0
+	+	16	85
+	+	16	17
+	+	17	17
+	+	16	0
+	+	6	12
+	+	5	0
+	+	22	0
+	+	8	0
+	+	16	0
+	+	15	0
+	+	17	0
+
+> ~/test/inherit02.py
+	"	40	11
+	^	39	50
+	.	39	49
+	+	12	0
+	+	12	15
+	+	12	0
+	+	8	0
+	+	1	15
+	+	1	16
+	+	14	11
+	+	16	16
+	+	16	17
+	+	16	0
 	+	14	0
-	+	12	1
+	+	41	6
+	+	41	15
+	+	41	7
+	+	41	0
+	+	41	0
+	+	41	7
+	+	41	18
+	+	12	0
+	+	12	0
+	+	4	13
+	+	41	10
+	+	41	14
+	+	41	11
+	+	4	11
+	+	41	11
+	+	14	16
+	+	14	17
+	+	12	0
+	+	14	0
+	+	41	0
+	+	41	22
+	+	14	18
+	+	14	18
+	+	14	0
+	+	41	0
+	+	16	19
+	+	16	0
+	+	16	22
+	+	16	0
+	+	16	0
+	+	41	10
+	+	13	0
+	+	14	0
+	+	16	21
+	+	16	35
+	+	13	16
+	+	13	11
 	+	13	18
+	+	41	0
+	+	41	10
+	+	16	14
+	+	16	14
+	+	41	19
+	+	41	12
+	+	41	10
+	+	41	13
+	+	41	13
+	+	16	17
+	+	16	18
+	+	16	0
+	+	41	0
+	+	41	0
+	+	41	1
+	+	41	1
+	+	41	0
+	+	41	11
+	+	41	11
+	+	41	1
+	+	14	13
+	+	13	13
+	+	41	11
+	+	41	44
+	+	41	0
+	+	2	0
+	+	5	0
+	+	7	0
+	+	13	0
+	+	9	13
+	+	6	23
+	+	10	0
+	+	11	22
+	+	14	10
+	+	16	0
+	+	15	7
+	+	41	0
+	+	17	7
+	+	20	4
+	+	3	0
+	+	20	5
+	+	14	13
+	+	19	54
+	+	23	0
+	+	21	0
+	+	23	8
+	+	28	8
+	+	33	13
+	+	22	0
+	+	38	81
+	+	39	49
 
-> /srv/salt/common/core.sls
-	"	47	0
-	.	77	0
-	+	1	9
+> ~/test/abc01.py
+	"	24	0
+	^	32	8
+	.	24	0
+	+	18	0
+	+	42	0
+	+	42	19
+	+	5	0
+	+	20	23
+	+	21	7
+	+	22	0
+	+	25	10
+	+	42	0
+	+	24	0
+	+	1	16
+	+	2	0
+	+	42	0
+	+	24	3
+	+	25	3
+	+	27	51
+	+	19	0
+	+	42	0
+	+	30	23
+	+	35	26
+	+	36	11
+	+	38	0
+	+	37	0
+	+	34	0
+	+	38	30
+	+	41	10
+	+	34	0
+	+	32	19
+	+	33	38
+	+	32	7
+	+	24	0
+
+> ~/test/odd_even_prob.py
+	"	15	4
+	^	14	17
+	.	15	0
+	+	3	3
+	+	7	30
+	+	9	0
+	+	4	76
+	+	7	0
+	+	5	73
+	+	7	0
+	+	11	32
+	+	13	17
+	+	13	17
+	+	17	22
+	+	13	0
+	+	14	16
+	+	15	0
+
+> ~/test/serializer01.py
+	"	9	9
+	^	9	10
+	.	9	0
+	+	1	17
+	+	2	3
+	+	3	35
+	+	7	28
+	+	9	0
+
+> ~/test/prime01.py
+	"	3	43
+	^	3	44
+	.	3	43
+	+	7	0
+	+	9	24
+	+	16	32
+	+	17	32
+	+	20	22
+	+	22	15
+	+	25	6
+	+	14	19
+	+	6	12
+	+	25	33
+	+	26	6
+	+	25	1
+	+	27	55
+	+	29	5
+	+	8	0
+	+	17	31
+	+	21	0
+	+	18	39
+	+	20	23
+	+	22	14
+	+	19	19
+	+	25	35
+	+	2	3
+	+	3	43
+
+> ~/test/palindrome01.py
+	"	4	0
+	^	48	0
+	.	4	0
+	+	50	0
+	+	11	29
+	+	16	23
+	+	50	0
+	+	14	28
+	+	3	8
+	+	17	41
+	+	35	17
+	+	35	7
+	+	35	18
+	+	40	37
+	+	4	0
+	+	37	0
+	+	50	0
+	+	35	19
+	+	17	29
+	+	34	0
+	+	21	35
+	+	26	7
+	+	21	10
+	+	26	48
+	+	27	34
+	+	26	44
+	+	27	33
+	+	46	0
+	+	40	21
+	+	41	12
+	+	46	25
+	+	27	34
+	+	19	18
+	+	26	32
+	+	46	0
+	+	23	22
+	+	24	0
+	+	26	32
+	+	23	16
+	+	19	17
+	+	23	14
+	+	27	17
+	+	28	24
+	+	31	35
+	+	46	10
+	+	26	47
+	+	46	6
+	+	29	53
+	+	30	27
+	+	32	0
+	+	31	12
+	+	27	11
+	+	28	11
+	+	29	11
+	+	31	15
+	+	32	41
+	+	33	30
+	+	35	15
+	+	19	0
+	+	32	0
+	+	46	69
+	+	39	6
+	+	40	26
+	+	41	18
+	+	42	15
+	+	46	0
+	+	45	13
+	+	39	2
+	+	40	2
+	+	41	2
+	+	42	2
+	+	46	3
+	+	43	42
+	+	44	15
+	+	5	1
+	+	7	29
+	+	6	56
+	+	5	3
+	+	8	3
+	+	10	0
+	+	19	0
+	+	31	0
+	+	46	26
+	+	38	25
+	+	39	0
+	+	46	58
+	+	47	0
+	+	50	9
+	+	50	0
+	+	50	10
+	+	4	9
+	+	50	0
+	+	47	41
+	+	49	9
+	+	48	0
+	+	4	0
+
+> ~/test/list01.py
+	"	13	22
+	^	14	23
+	.	14	22
+	+	2	0
+	+	3	249
+	+	17	1
+	+	3	73
+	+	4	72
+	+	5	73
+	+	6	1
+	+	5	72
+	+	17	0
+	+	8	0
+	+	9	0
+	+	11	0
+	+	17	0
+	+	10	11
+	+	13	22
+	+	14	17
+	+	16	5
+	+	17	0
+	+	12	16
+	+	14	22
+
+> ~/test/string01.py
+	"	42	0
+	^	41	13
+	.	43	0
+	+	2	0
+	+	5	19
+	+	6	20
+	+	4	26
+	+	12	0
+	+	11	0
+	+	12	7
+	+	14	13
+	+	12	22
+	+	7	0
+	+	12	6
+	+	14	13
+	+	12	22
+	+	16	31
+	+	18	43
+	+	19	16
+	+	16	35
+	+	17	1
+	+	16	0
+	+	43	0
+	+	21	35
+	+	22	21
+	+	23	17
+	+	24	0
+	+	21	63
+	+	24	9
+	+	26	27
+	+	27	17
+	+	28	0
+	+	27	22
+	+	28	23
+	+	27	21
+	+	28	21
+	+	31	9
+	+	32	25
+	+	33	10
+	+	34	26
+	+	37	6
+	+	38	13
+	+	39	55
+	+	40	21
+	+	37	0
+	+	40	21
+	+	38	12
+	+	41	0
+	+	42	0
+	+	41	12
+	+	43	0
+
+> ~/test/slice01.py
+	"	32	53
+	^	32	54
+	.	32	53
+	+	2	0
+	+	33	0
+	+	5	24
+	+	6	32
+	+	6	0
+	+	6	13
+	+	7	20
+	+	8	20
+	+	10	13
+	+	10	0
+	+	5	38
+	+	10	33
+	+	14	56
+	+	16	9
+	+	17	34
+	+	21	0
+	+	19	22
+	+	20	25
+	+	33	0
+	+	31	12
+	+	32	37
+	+	22	0
+	+	31	12
+	+	32	37
+	+	33	0
+	+	24	0
+	+	31	17
+	+	32	40
+	+	27	0
+	+	31	25
+	+	28	16
+	+	29	21
+	+	32	53
+
+> ~/test/recursion_dir.py
+	"	12	47
+	^	12	48
+	.	12	47
+	+	6	32
+	+	7	28
+	+	14	26
+	+	18	0
+	+	7	22
+	+	15	24
+	+	17	9
 	+	18	0
 	+	13	0
+	+	7	22
+	+	15	24
+	+	14	25
+	+	15	11
+	+	8	0
+	+	7	29
+	+	8	23
+	+	5	0
+	+	6	0
+	+	8	18
+	+	10	27
+	+	12	29
+	+	10	0
+	+	12	24
+	+	12	37
+	+	13	20
+	+	15	36
+	+	12	0
+	+	13	19
+	+	15	53
+	+	15	50
+	+	10	46
+	+	15	50
+	+	7	9
+	+	13	14
+	+	13	0
+	+	7	19
+	+	13	33
+	+	12	18
+	+	13	20
+	+	12	12
+	+	13	17
+	+	7	0
+	+	13	0
+	+	17	0
+	+	16	19
+	+	17	0
+	+	16	28
+	+	6	39
+	+	13	0
+	+	12	56
+	+	13	0
+	+	6	41
+	+	10	42
+	+	11	34
+	+	12	47
+
+> ~/test/inherit01.py
+	"	34	0
+	^	20	0
+	.	20	0
+	+	50	26
+	+	16	0
+	+	20	0
+
+> ~/test.py
+	"	11	0
+	^	12	3
+	.	12	2
+	+	1	17
+	+	1	17
+	+	1	25
+	+	1	4
+	+	1	4
+	+	1	8
+	+	12	2
+
+> /srv/salt/debian/pi.sls
+	"	76	0
+	^	36	9
+	.	75	0
+	+	41	14
+	+	42	0
+	+	54	0
+	+	95	11
+	+	78	19
+	+	76	19
+	+	77	13
+	+	80	29
+	+	95	0
+	+	42	0
+	+	43	0
+	+	44	14
+	+	45	5
+	+	46	5
+	+	46	5
+	+	47	5
+	+	48	5
+	+	49	7
+	+	51	7
+	+	51	5
+	+	52	5
+	+	54	5
+	+	42	0
+	+	49	6
+	+	51	6
+	+	54	0
+	+	76	0
+	+	43	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	40	0
+	+	41	0
+	+	39	0
+	+	95	0
+	+	46	0
+	+	51	3
+	+	50	11
+	+	51	116
+	+	82	0
+	+	86	42
+	+	85	19
+	+	53	37
+	+	53	3
+	+	53	7
+	+	53	7
+	+	53	7
+	+	53	32
+	+	95	0
+	+	54	0
+	+	76	29
+	+	53	0
+	+	79	4
+	+	77	13
+	+	80	0
+	+	81	14
+	+	83	0
+	+	53	0
+	+	67	19
+	+	61	5
+	+	62	19
+	+	66	14
+	+	64	19
+	+	75	0
+	+	54	0
+	+	62	19
+	+	83	36
+	+	84	0
+	+	85	0
+	+	86	29
+	+	87	31
+	+	81	12
+	+	66	12
+	+	86	42
+	+	69	0
+	+	68	0
+	+	69	26
+	+	72	36
+	+	74	14
+	+	39	0
+	+	32	0
+	+	30	9
+	+	30	0
+	+	4	0
+	+	7	9
+	+	30	0
+	+	72	32
+	+	79	41
+	+	72	40
+	+	57	40
+	+	88	0
+	+	89	25
+	+	92	48
+	+	95	0
+	+	36	6
+	+	37	0
+	+	38	0
+	+	33	0
+	+	36	8
+	+	75	0
+
+> /srv/salt/ubuntu/docker.sls
+	"	48	0
+	.	48	0
+	+	1	20
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	19
+	+	1	15
+	+	1	0
+	+	10	18
+	+	1	0
+	+	2	107
+	+	2	4
+	+	3	66
+	+	3	66
+	+	4	22
+	+	5	44
+	+	6	50
+	+	7	50
+	+	10	16
+	+	1	0
+	+	8	2
+	+	10	10
+	+	10	21
+	+	10	9
+	+	10	3
+	+	10	3
+	+	10	3
+	+	10	2
+	+	10	0
+	+	29	10
+	+	10	13
+	+	10	24
+	+	1	0
+	+	10	0
+	+	23	0
+	+	26	0
+	+	32	0
+	+	34	0
+	+	33	0
+	+	34	0
+	+	64	0
+	+	78	0
+	+	73	0
+	+	74	0
+	+	34	18
+	+	63	0
+	+	44	0
+	+	43	27
+	+	55	12
+	+	48	5
+	+	51	13
+	+	54	15
+	+	55	0
+	+	48	11
+	+	50	17
+	+	53	13
+	+	54	0
+	+	63	0
+	+	48	6
+	+	48	12
+	+	48	0
+	+	48	13
+	+	48	12
+	+	48	0
+	+	48	14
+	+	48	14
+	+	48	21
+	+	48	0
+
+> /srv/salt/top.sls
+	"	8	25
+	^	8	26
+	.	8	25
+	+	2	20
+	+	2	0
+	+	2	11
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	7	19
+	+	7	0
+	+	9	22
+	+	7	2
+	+	9	4
+	+	9	4
+	+	7	11
+	+	2	0
+	+	7	0
+	+	9	11
+	+	2	31
+	+	3	23
+	+	9	23
+	+	7	11
+	+	4	0
+	+	7	13
+	+	3	0
+	+	3	0
+	+	3	16
+	+	2	16
+	+	3	0
+	+	2	0
+	+	2	18
+	+	10	0
+	+	2	0
+	+	2	0
+	+	3	0
+	+	2	0
+	+	2	0
+	+	3	0
+	+	2	0
+	+	12	14
+	+	10	14
+	+	9	0
+	+	8	18
+	+	14	0
+	+	15	0
+	+	16	0
+	+	8	25
+
+> /srv/salt/ubuntu/docker/files/config
+	"	8	0
+	.	15	0
+	+	1	0
+	+	8	0
+	+	15	0
+
+> /srv/salt/docker/init.sls
+	"	29	0
+
+> /srv/salt/.git/MERGE_MSG
+	"	1	0
+
+> /etc/apt/sources.list.d/docker.list
+	"	1	0
+	^	1	57
+	.	1	0
+	+	1	0
+
+> /tmp/crontab.brzras/crontab
+	"	108	0
+	.	109	0
+	+	109	0
+
+> /tmp/crontab.sfzRO4/crontab
+	"	44	0
+
+> /tmp/crontab.SHO8Ud/crontab
+	"	108	0
+	.	109	0
+	+	109	0
+
+> /tmp/crontab.genz68/crontab
+	"	1	0
+
+> /tmp/crontab.8CYTHO/crontab
+	"	108	0
+
+> /tmp/crontab.Hl2NJs/crontab
+	"	108	0
+
+> /srv/salt/data/users/common/.gitconfig
+	"	31	0
+	.	31	0
+	+	31	0
+
+> /srv/salt/common/core.sls
+	"	58	0
+	^	24	0
+	.	24	0
+	+	1	9
+	+	27	0
+	+	19	0
 	+	7	0
 	+	7	0
 	+	1	6
-	+	33	0
-	+	34	0
-	+	35	0
-	+	36	0
-	+	48	0
-	+	47	0
-	+	77	0
-	+	88	0
-	+	80	20
-	+	28	0
+	+	43	0
+	+	44	0
+	+	45	0
+	+	46	0
+	+	58	0
+	+	57	0
+	+	106	0
+	+	117	0
+	+	109	20
+	+	42	0
 	+	7	0
 	+	7	9
 	+	4	0
 	+	7	0
-	+	71	0
-	+	60	0
+	+	100	0
+	+	70	0
+	+	106	0
+	+	106	43
+	+	106	0
+	+	106	0
+	+	106	49
+	+	106	16
+	+	106	20
+	+	106	0
+	+	106	10
+	+	101	0
+	+	106	13
+	+	106	53
+	+	101	0
+	+	106	0
+	+	106	0
+	+	106	0
+	+	42	0
+	+	43	0
+	+	16	0
+	+	17	0
+	+	19	0
+	+	18	0
+	+	75	0
+	+	85	31
+	+	83	19
+	+	83	0
 	+	77	0
-	+	77	43
-	+	77	0
-	+	77	0
-	+	77	49
-	+	77	16
-	+	77	20
-	+	77	0
-	+	77	10
-	+	72	0
-	+	77	13
-	+	77	53
-	+	72	0
-	+	77	0
-	+	77	0
-	+	77	0
+	+	76	0
+	+	77	7
+	+	79	19
+	+	83	10
+	+	85	23
+	+	86	0
+	+	85	24
+	+	42	0
+	+	76	0
+	+	93	0
+	+	99	17
+	+	101	28
+	+	54	0
+	+	55	0
+	+	56	0
+	+	57	0
+	+	93	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	10	17
+	+	37	0
+	+	38	8
+	+	24	0
+
+> debian/pi.sls
+	"	1	0
+
+> /srv/salt/pi.sls
+	"	1	0
+
+> /srv/salt/pillar/users/mls.sls
+	"	1	26
+	^	1	27
+	.	1	26
+	+	1	26
 
 > /srv/salt/common/ws-consumer.sls
-	"	5	0
-	^	1	0
-	.	1	0
+	"	23	2
+	.	24	0
 	+	1	0
-
-> /srv/salt/top.sls
-	"	10	13
-	^	10	14
-	.	10	13
-	+	3	20
-	+	3	0
-	+	3	11
 	+	2	0
 	+	3	0
+	+	4	0
+	+	5	0
+	+	22	0
+	+	24	0
+	+	24	0
+	+	24	12
+	+	24	21
+	+	24	26
+	+	24	7
+	+	24	12
+	+	24	0
+
+> ~/bin/mysql_table_sizes_get.sh
+	"	2	212
+	^	2	212
+	.	2	211
 	+	2	0
+	+	4	37
+	+	4	37
+	+	4	87
+	+	4	61
+	+	2	29
+	+	3	58
+	+	3	220
+	+	3	127
+	+	2	29
 	+	3	0
-	+	3	0
-	+	10	19
-	+	10	0
-	+	12	22
-	+	10	2
-	+	11	4
-	+	12	4
-	+	10	11
-	+	3	0
-	+	10	0
-	+	12	11
-	+	4	31
-	+	6	23
-	+	12	23
-	+	10	11
-	+	7	0
-	+	10	13
+	+	2	29
+	+	2	230
+	+	2	10
+	+	2	211
 
-> /disk2/video_storage/t.sh
-	"	735	0
-	.	1	0
-	+	736	0
-	+	1	0
-	+	736	0
-	+	1	0
-
-> ~/test01.sh
-	"	4	5
-	^	4	6
-	.	4	5
-	+	1	10
-	+	3	65
-	+	4	5
-
-> /etc/fstab
-	"	18	0
-	^	18	1
-	.	18	0
-	+	17	0
-	+	18	0
+> ~/test/lambda02.py
+	"	10	4
+	^	9	15
+	.	11	0
+	+	6	19
+	+	9	23
+	+	10	6
+	+	9	14
+	+	11	0
 
 > /etc/salt/master
-	"	50	0
-	^	50	18
-	.	50	0
-	+	583	34
-	+	580	0
-	+	583	3
-	+	78	9
-	+	50	0
+	"	549	15
+	^	549	16
+	.	549	15
+	+	547	0
+	+	548	0
+	+	549	15
 
-> /srv/salt/common/ubuntu.sls
-	"	128	0
-	^	120	8
-	.	124	0
-	+	13	0
-	+	53	0
-	+	58	0
-	+	63	0
-	+	78	0
-	+	90	0
-	+	4	6
-	+	5	0
+> /django/django_home/devices/tests.py
+	"	122	0
+	^	87	9
+	.	16	0
+	+	18	0
+	+	80	0
+	+	70	0
+	+	80	30
+	+	44	20
+	+	80	59
+	+	82	26
+	+	80	43
+	+	19	38
+	+	44	1
+	+	70	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	19	31
+	+	33	26
+	+	36	44
+	+	36	49
+	+	36	84
+	+	42	31
+	+	36	8
+	+	36	8
+	+	36	8
+	+	36	31
+	+	36	38
+	+	37	0
+	+	42	0
+	+	33	7
+	+	2	44
+	+	36	29
+	+	37	33
+	+	36	35
+	+	37	18
+	+	33	12
+	+	36	29
+	+	36	38
+	+	36	9
+	+	36	42
+	+	37	0
+	+	36	44
+	+	33	27
+	+	35	17
+	+	40	0
+	+	39	9
+	+	1	0
+	+	2	0
+	+	40	44
+	+	39	35
+	+	44	0
+	+	70	0
+	+	70	30
+	+	75	0
+	+	80	0
+	+	75	48
+	+	44	0
+	+	79	0
+	+	77	49
+	+	78	49
+	+	33	32
+	+	22	0
+	+	33	31
+	+	35	12
+	+	36	37
+	+	39	16
+	+	40	43
+	+	37	49
+	+	41	49
+	+	71	0
+	+	75	48
+	+	77	52
+	+	70	0
+	+	5	29
+	+	75	0
+	+	77	27
+	+	78	49
+	+	77	49
+	+	77	0
+	+	45	25
+	+	47	20
+	+	48	11
+	+	46	0
+	+	77	51
+	+	75	0
+	+	77	52
+	+	70	35
+	+	49	0
+	+	70	34
+	+	73	47
+	+	74	49
+	+	72	12
+	+	75	0
+	+	77	47
+	+	76	39
+	+	78	49
+	+	87	20
+	+	88	11
+	+	87	8
+	+	12	0
+	+	16	0
+
+> /django/django_home/devices/urls.py
+	"	9	43
+	^	9	44
+	.	9	43
 	+	6	0
-	+	4	0
+	+	3	0
+	+	10	0
+	+	7	30
+	+	9	37
+	+	8	21
+	+	9	20
+	+	8	25
+	+	9	25
+	+	8	28
+	+	9	43
+
+> /django/django_home/django_mackall/urls.py
+	"	20	19
+	^	21	20
+	.	21	19
+	+	20	18
+	+	21	19
+
+> /django/django_home/test_run.sh
+	"	3	43
+	^	3	44
+	.	3	43
+	+	2	42
+	+	3	0
+	+	2	1
+	+	3	43
+
+> /django/django_home/devices/models.py
+	"	4	27
+	^	6	62
+	.	6	59
+	+	3	0
+	+	3	0
+	+	11	33
+	+	3	11
+	+	15	0
+	+	10	42
+	+	14	42
+	+	3	0
+	+	5	3
+	+	6	3
 	+	7	0
-	+	109	0
-	+	108	0
-	+	115	0
-	+	120	7
-	+	142	0
-	+	136	0
-	+	142	0
-	+	124	0
+	+	9	43
+	+	13	43
+	+	3	0
+	+	9	37
+	+	13	37
+	+	6	45
+	+	13	27
+	+	6	59
 
-> /srv/salt/common/debian.sls
-	"	1	0
-	^	42	57
-	.	42	56
+> /django/django_home/devices/views.py
+	"	14	0
+	^	62	0
+	.	62	0
+	+	105	0
+	+	106	51
+	+	69	0
+	+	71	0
+	+	65	0
+	+	69	0
+	+	69	25
+	+	69	26
+	+	69	55
+	+	69	27
+	+	5	58
+	+	107	0
+	+	107	0
+	+	107	10
+	+	107	0
+	+	41	39
+	+	65	0
 	+	45	0
+	+	41	41
+	+	65	0
+	+	65	9
+	+	65	50
+	+	61	43
+	+	65	45
+	+	66	0
+	+	69	0
+	+	61	0
+	+	65	0
+	+	47	25
+	+	55	0
+	+	55	7
+	+	55	7
+	+	53	11
+	+	55	5
+	+	53	16
+	+	55	0
+	+	54	8
+	+	54	28
+	+	55	0
+	+	59	25
+	+	60	21
+	+	71	0
+	+	73	8
+	+	70	8
+	+	71	11
+	+	61	0
+	+	73	25
+	+	59	18
+	+	54	0
+	+	46	17
+	+	53	12
+	+	54	28
+	+	59	23
+	+	53	11
+	+	53	24
+	+	53	0
+	+	59	0
+	+	72	0
+	+	95	43
+	+	102	43
+	+	53	47
+	+	12	0
+	+	53	16
+	+	75	33
+	+	76	36
+	+	89	18
+	+	90	8
+	+	90	13
+	+	89	22
+	+	89	0
+	+	90	8
+	+	89	20
+	+	89	9
+	+	89	28
+	+	90	11
+	+	93	32
+	+	49	37
+	+	42	11
+	+	42	11
+	+	43	54
+	+	61	12
+	+	57	59
+	+	61	0
+	+	64	74
+	+	89	0
+	+	58	20
+	+	60	39
+	+	73	31
+	+	60	0
+	+	50	18
+	+	50	42
+	+	53	0
+	+	52	34
+	+	51	27
+	+	50	20
+	+	63	0
+	+	63	29
+	+	69	63
+	+	63	0
+	+	62	0
+
+> /django/django_home/devices/serializers.py
+	"	8	0
+	^	9	55
+	.	9	54
+	+	2	0
+	+	11	46
+	+	20	43
+	+	9	54
+
+> /django/django_home/django_mackall/settings.py
+	"	83	0
+	^	154	2
+	.	154	1
+	+	94	28
+	+	94	20
+	+	94	24
+	+	94	22
+	+	94	30
+	+	89	0
+	+	90	56
+	+	91	73
+	+	92	11
+	+	90	8
+	+	91	48
+	+	94	0
+	+	92	0
+	+	91	36
+	+	69	27
+	+	91	43
+	+	49	11
+	+	50	14
+	+	20	1
+	+	24	44
+	+	51	0
+	+	134	0
+	+	167	33
+	+	157	0
+	+	158	0
+	+	159	65
+	+	136	0
+	+	139	0
+	+	140	0
+	+	141	0
+	+	139	0
+	+	140	0
+	+	141	0
+	+	15	0
+	+	162	25
+	+	138	30
+	+	140	0
+	+	20	0
+	+	21	0
+	+	23	33
+	+	22	0
+	+	152	27
+	+	158	1
+	+	157	1
+	+	154	1
+
+> /tmp/crontab.L4rQxV/crontab
+	"	1	0
+
+> /django/django_home/test_coverage.sh
+	"	4	54
+	^	4	55
+	.	4	54
+	+	2	54
+	+	4	54
+
+> ~/.my.cnf
+	"	3	9
+	^	2	9
+	.	3	9
+	+	1	11
+	+	3	14
+	+	2	8
+	+	3	9
+
+> ~/.bashrc
+	"	142	9
+	^	142	10
+	.	142	9
+	+	135	18
+	+	131	45
+	+	132	0
+	+	131	0
+	+	130	2
+	+	139	8
+	+	140	47
+	+	141	43
+	+	142	0
+	+	141	29
+	+	142	9
+
+> /tmp/crontab.F0hbtt/crontab
+	"	80	0
+
+> /tmp/crontab.VpVx6H/crontab
+	"	105	0
+
+> ~/test/poly01.py
+	"	8	15
+	^	28	15
+	.	28	14
+	+	3	9
+	+	10	23
+	+	5	0
+	+	32	0
+	+	12	14
+	+	32	0
+	+	12	11
+	+	24	0
+	+	26	0
 	+	27	0
-	+	42	56
+	+	26	3
+	+	27	14
+	+	28	14
 
-> /etc/supervisor/conf.d/flower.conf
-	"	3	18
-	^	3	19
-	.	3	18
-	+	1	16
-	+	8	0
-	+	2	55
-	+	3	18
+> ~/bin/lights_on_off.py
+	"	38	0
+	^	54	25
+	.	54	24
+	+	5	0
+	+	4	14
+	+	2	0
+	+	58	0
+	+	29	50
+	+	7	39
+	+	29	31
+	+	35	10
+	+	3	10
+	+	63	12
+	+	3	0
+	+	9	0
+	+	63	0
+	+	58	3
+	+	35	15
+	+	31	27
+	+	32	0
+	+	35	19
+	+	57	13
+	+	37	57
+	+	57	0
+	+	36	23
+	+	37	52
+	+	36	17
+	+	37	9
+	+	37	14
+	+	35	10
+	+	37	0
+	+	28	24
+	+	5	7
+	+	6	9
+	+	15	0
+	+	15	0
+	+	18	33
+	+	20	0
+	+	7	12
+	+	34	35
+	+	41	32
+	+	43	21
+	+	42	25
+	+	44	40
+	+	46	20
+	+	49	56
+	+	50	19
+	+	52	22
+	+	25	0
+	+	44	26
+	+	58	0
+	+	3	0
+	+	52	0
+	+	51	0
+	+	52	76
+	+	54	0
+	+	52	65
+	+	53	12
+	+	54	24
+	a	22	20
 
-> /tmp/crontab.50rCn9/crontab
-	"	34	0
+> ~/bin/wemo.py
+	"	3	0
+	^	61	38
+	.	91	0
+	+	18	0
+	+	9	30
+	+	18	0
+	+	9	22
+	+	10	7
+	+	12	43
+	+	17	72
+	+	18	16
+	+	84	33
+	+	82	13
+	+	84	50
+	+	84	0
+	+	82	0
+	+	84	0
+	+	82	34
+	+	39	54
+	+	60	23
+	+	16	32
+	+	17	18
+	+	16	0
+	+	15	22
+	+	82	4
+	+	82	0
+	+	58	0
+	+	82	0
+	+	64	0
+	+	82	0
+	+	17	8
+	+	18	0
+	+	42	60
+	+	80	20
+	+	78	0
+	+	88	28
+	+	89	8
+	+	76	6
+	+	58	0
+	+	55	27
+	+	42	25
+	+	55	25
+	+	76	17
+	+	77	43
+	+	89	26
+	+	5	21
+	+	89	8
+	+	83	78
+	+	15	0
+	+	42	0
+	+	44	0
+	+	39	0
+	+	40	51
+	+	56	23
+	+	72	0
+	+	19	0
+	+	9	0
+	+	19	34
+	+	21	47
+	+	22	0
+	+	30	13
+	+	76	14
+	+	77	31
+	+	23	16
+	+	30	63
+	+	32	18
+	+	77	61
+	+	26	53
+	+	27	39
+	+	30	39
+	+	26	16
+	+	27	46
+	+	29	20
+	+	46	46
+	+	47	33
+	+	57	26
+	+	68	52
+	+	69	30
+	+	67	23
+	+	71	39
+	+	81	17
+	+	71	29
+	+	72	26
+	+	71	34
+	+	72	0
+	+	5	33
+	+	86	3
+	+	5	0
+	+	27	0
+	+	26	28
+	+	27	0
+	+	27	0
+	+	27	0
+	+	27	13
+	+	27	12
+	+	86	0
+	+	27	25
+	+	26	0
+	+	26	22
+	+	26	13
+	+	26	0
+	+	91	0
+	+	91	0
+
+> /tmp/crontab.26tLJm/crontab
+	"	86	0
+
+> ~/bin/switch_on-off.sh
+	"	8	0
+	^	8	0
+	.	7	0
+	+	4	22
+	+	3	10
+	+	4	11
+	+	5	15
+	+	7	0
+
+> /tmp/crontab.svghlV/crontab
+	"	1	0
+
+> /tmp/crontab.6XN1sv/crontab
+	"	1	0
+
+> /tmp/crontab.5enbfh/crontab
+	"	1	0
+
+> /tmp/crontab.gQKMOF/crontab
+	"	72	0
+	^	72	1
+	.	72	0
+	+	72	0
+
+> ~/test/string_rev.py
+	"	22	4
+	^	22	10
+	.	23	0
+	+	15	25
+	+	16	0
+	+	22	9
+	+	16	0
+	+	23	0
+
+> /tmp/crontab.T0TJ5n/crontab
+	"	1	0
+
+> /tmp/crontab.IsONZG/crontab
+	"	25	0
 	^	25	1
 	.	25	0
-	+	18	0
-	+	17	0
-	+	23	0
-	+	26	0
-	+	30	0
-	+	32	0
-	+	24	0
-	+	25	0
-
-> /etc/hosts
-	"	3	24
-
-> /srv/salt/scripts_ws/ws_start.sh
-	"	4	9
-	^	4	10
-	.	4	9
-	+	2	0
-	+	3	5
-	+	5	9
-	+	4	9
-
-> /etc/salt/NERD_tree_1
-	"	10	0
-	.	1	0
-	+	1	0
-
-> /tmp/crontab.ypZ43b/crontab
-	"	42	47
-
-> /tmp/crontab.gt49Vv/crontab
-	"	43	57
-
-> /tmp/crontab.gUOpmm/crontab
-	"	60	44
-	^	42	45
-	.	42	44
-	+	48	0
-	+	51	0
-	+	47	0
-	+	42	44
-
-> ~/bin/sensor_temp.py
-	"	85	0
-	^	77	0
-	.	85	0
-	+	29	0
-	+	39	0
-	+	2	2
-	+	11	1
-	+	14	0
-	+	17	11
-	+	70	0
-	+	19	0
-	+	25	39
-	+	26	21
-	+	25	28
-	+	30	23
-	+	36	24
-	+	72	13
-	+	87	38
-	+	88	36
-	+	94	4
-	+	92	53
-	+	93	0
-	+	94	0
-	+	46	0
-	+	64	5
-	+	66	0
-	+	67	4
-	+	93	22
-	+	94	0
-	+	77	0
-	+	85	0
-
-> /etc/supervisor/conf.d/wstest.conf
-	"	2	48
-	^	2	49
-	.	2	48
-	+	1	14
-	+	9	0
-	+	6	42
-	+	7	42
-	+	9	0
-	+	8	54
-	+	3	18
-	+	2	39
-	+	8	0
-	+	2	48
-
-> /etc/supervisor/conf.d/add.conf
-	"	8	0
-	^	8	1
-	.	8	0
-	+	1	11
-	+	2	32
-	+	6	40
-	+	7	39
-	+	8	0
-
-> /tmp/crontab.rOxPnC/crontab
-	"	16	0
-
-> /wstest/wstest/tasks.py
-	"	36	44
-	^	36	45
-	.	36	44
-	+	16	0
-	+	18	19
-	+	25	0
-	+	28	0
-	+	42	0
-	+	31	11
-	+	33	33
-	+	37	24
-	+	35	7
-	+	37	7
-	+	39	63
-	+	40	16
-	+	41	13
-	+	8	0
-	+	6	0
-	+	12	0
-	+	15	0
-	+	39	10
-	+	2	33
-	+	11	54
-	+	7	8
-	+	36	44
-
-> /etc/supervisor/.gitignore
-	"	1	4
-	^	1	5
-	.	1	4
-	+	1	4
-
-> /wstest/manage.py
-	"	4	0
-
-> /srv/salt/common/to
-	"	1	0
-
-> /srv/salt/common/ws-tmac.sls
-	"	35	6
-	^	34	6
-	.	34	5
-	+	4	0
-	+	1	0
-	+	76	0
-	+	81	0
-	+	86	0
-	+	91	0
-	+	96	0
-	+	111	0
-	+	116	0
-	+	118	0
-	+	139	0
-	+	153	0
-	+	202	0
-	+	174	19
-	+	175	20
-	+	160	9
-	+	171	0
-	+	160	0
-	+	160	0
-	+	184	9
-	+	13	0
-	+	13	21
-	+	12	0
-	+	13	0
-	+	13	23
-	+	13	12
-	+	16	12
-	+	13	12
-	+	13	27
-	+	13	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	13	0
-	+	196	0
-	+	195	0
-	+	196	0
-	+	37	0
-	+	37	2
-	+	37	0
-	+	27	0
-	+	24	0
-	+	21	0
-	+	18	0
-	+	22	0
-	+	37	0
-	+	22	8
-	+	25	14
-	+	28	14
-	+	37	0
-	+	64	0
-	+	118	0
-	+	118	22
-	+	118	10
-	+	118	0
-	+	118	0
-	+	160	0
-	+	118	0
-	+	118	4
-	+	118	0
-	+	118	0
-	+	34	0
-	+	36	0
-	+	34	9
-	+	37	0
-	+	31	0
-	+	34	5
-
-> /srv/salt/.git/config
-	"	7	7
-	^	7	65
-	.	7	7
-	+	7	7
-
-> /srv/salt/.git/cvo
-	"	1	0
-
-> /wstest/.gitignore
-	"	3	12
-	^	3	1
-	.	3	12
-	+	2	3
-	+	3	12
-
-> /wstest/wstest/settings.py
-	"	26	0
-	^	22	33
-	.	22	32
-	+	20	1
-	+	22	40
-	+	25	53
-	+	26	47
-	+	27	62
-	+	27	32
-	+	27	80
-	+	27	55
-	+	27	31
-	+	27	32
-	+	27	56
-	+	27	32
-	+	28	32
-	+	29	31
-	+	30	33
-	+	31	30
-	+	38	42
+	+	44	0
+	+	59	0
 	+	38	0
-	+	27	0
-	+	26	0
-	+	22	39
-	+	20	62
-	+	35	36
-	+	60	0
-	+	22	33
-	+	21	21
-	+	22	38
-	+	48	22
-	+	21	18
-	+	22	32
+	+	22	9
+	+	23	9
+	+	24	9
+	+	25	9
+	+	24	9
+	+	22	3
+	+	23	3
+	+	24	3
+	+	25	0
 
-> /wstest/wstest/urls.py
-	"	20	23
-	^	20	70
-	.	21	0
-	+	21	39
-	+	21	94
-	+	21	0
-	+	21	0
-	+	20	66
-	+	19	29
-	+	21	0
-	+	21	0
-	+	16	50
-	+	17	22
-	+	16	29
-	+	17	0
-	+	21	0
-	+	21	0
-	+	20	69
-	+	21	0
-	+	21	21
-	+	20	69
-	+	21	0
-
-> /wstest/wstest/api/views.py
-	"	52	26
-	^	52	27
-	.	52	27
-	+	25	14
-	+	43	27
-	+	43	40
-	+	54	4
-	+	55	0
-	+	42	29
-	+	24	0
-	+	19	0
-	+	19	0
-	+	10	0
-	+	8	0
-	+	6	0
-	+	9	24
-	+	5	0
-	+	23	0
-	+	14	19
-	+	15	0
-	+	43	10
-	+	14	27
-	+	43	30
-	+	54	13
-	+	43	26
-	+	27	47
-	+	28	0
-	+	30	32
-	+	41	0
-	+	43	38
-	+	43	0
-	+	43	0
-	+	29	0
-	+	31	34
-	+	32	7
-	+	42	0
-	+	43	0
-	+	40	8
-	+	33	17
-	+	37	0
-	+	33	48
-	+	34	59
-	+	35	33
-	+	36	0
-	+	33	35
-	+	38	28
-	+	39	28
-	+	43	30
-	+	54	0
-	+	43	25
-	+	53	0
-	+	44	15
-	+	46	24
-	+	47	10
-	+	48	52
-	+	52	0
-	+	49	33
-	+	51	0
-	+	50	7
-	+	43	43
-	+	52	27
-
-> /wstest/wstest/__init__.py
-	"	6	21
-	^	6	22
-	.	6	21
-	+	6	21
-
-> /etc/apt/sources.list
-	"	107	0
-
-> /srv/salt/core.sls
-	"	1	0
-
-> /tmp/crontab.44Elo4/crontab
-	"	46	1
-	^	46	2
-	.	46	1
-	+	17	2
-	+	28	4
-	+	29	4
-	+	30	1
-	+	29	1
-	+	28	0
-	+	37	4
-	+	46	1
-	+	47	1
-	+	46	1
-
-> /tmp/crontab.xGvxjW/crontab
-	"	33	1
-	^	30	2
-	.	30	1
-	+	28	2
-	+	29	1
-	+	30	1
-
-> /tmp/crontab.wuF2XR/crontab
-	"	49	1
-	^	46	2
-	.	46	1
-	+	46	1
-
-> /tmp/crontab.NljqvY/crontab
-	"	30	1
-	^	30	2
-	.	30	1
-	+	27	0
-	+	31	0
-	+	28	1
-	+	29	4
-	+	30	1
-
-> /tmp/crontab.lYR1k8/crontab
-	"	28	5
-	^	29	5
-	.	28	2
-	+	28	1
-	+	29	1
-	+	30	4
-	+	29	4
-	+	28	2
-
-> /tmp/crontab.zbrLst/crontab
-	"	59	2
-	^	38	4
-	.	38	3
-	+	37	1
-	+	38	3
-
-> /tmp/crontab.jTW6Z3/crontab
-	"	1	0
-
-> /tmp/crontab.IGvQM6/crontab
-	"	19	12
-
-> /services/audio/audio_house/audio_house/api/views.py
-	"	58	35
-	^	55	57
-	.	55	56
-	+	50	0
-	+	48	0
-	+	51	11
-	+	53	48
-	+	57	31
-	+	59	0
-	+	10	0
-	+	59	0
-	+	58	32
-	+	55	56
-
-> /services/audio/audio_house/audio_house/urls.py
-	"	8	16
-
-> /etc/supervisor/conf.d/audio.conf
-	"	8	32
-
-> /tmp/crontab.bEGcZ4/crontab
-	"	55	0
-
-> /tmp/crontab.dYUnfQ/crontab
-	"	26	2
-	^	26	3
-	.	26	2
-	+	26	2
-
-> /tmp/crontab.w5J6zB/crontab
-	"	46	4
-	^	46	5
-	.	46	4
-	+	51	3
-	+	46	4
-
-> /tmp/crontab.wGqVjp/crontab
-	"	47	0
-	^	47	1
-	.	47	0
-	+	28	4
-	+	30	4
-	+	28	4
-	+	29	4
-	+	51	0
-	+	52	3
-	+	47	0
-
-> /tmp/crontab.RtHTrN/crontab
-	"	32	4
-	^	32	5
-	.	32	4
-	+	42	50
-	+	43	0
-	+	48	0
-	+	16	47
-	+	18	2
-	+	23	2
-	+	26	2
-	+	32	4
-
-> /tmp/crontab.SwLfGz/crontab
-	"	1	0
-
-> /tmp/crontab.K8tk1Z/crontab
-	"	27	0
-
-> /tmp/crontab.WaK6tC/crontab
-	"	92	0
-
-> /disk2/camera_video_backups/t.sh
-	"	4559	0
-	.	1	0
-	+	1	0
-	+	4560	0
-	+	1	0
-
-> ~/bin/cameras_ip/camera_file_check.py
-	"	21	22
-	^	10	54
-	.	10	53
-	+	12	17
-	+	13	19
-	+	12	49
-	+	11	15
-	+	10	66
-	+	12	11
-	+	10	53
-
-> ~/bin/detect_ftp_files.sh
-	"	64	0
-	.	91	0
-	+	91	0
-
-> /tmp/crontab.l1KKNK/crontab
-	"	89	0
-	^	63	1
-	.	63	0
-	+	62	0
-	+	63	0
-
-> ~/bin/monitor_disks.sh
-	"	10	0
-	^	10	1
-	.	10	0
-	+	10	0
-
-> ~/bin/monitor
-	"	1	0
-
-> ~/bin/log_camera_parse.sh
-	"	13	23
-	^	13	24
-	.	13	23
-	+	13	23
-
-> /etc/vsftpd.conf
-	"	147	0
-
-> /tmp/crontab.vhK5d4/crontab
-	"	6	0
-
-> /tmp/crontab.9n6PLo/crontab
-	"	43	0
-
-> /disk1/video_storage/t.sh
-	"	4972	0
-	.	1	0
-	+	4973	0
-	+	614	0
-	+	1	0
-	+	4973	0
-	+	1	0
-
-> /tmp/crontab.DGSBN0/crontab
-	"	50	0
-	.	50	0
-	+	50	0
-
-> /tmp/crontab.GEKcYx/crontab
-	"	50	0
-	^	50	1
-	.	50	0
-	+	50	0
-
-> /tmp/crontab.HTxcKW/crontab
-	"	4	1
-	^	50	3
-	.	4	1
-	+	50	2
-	+	6	1
-	+	4	1
-
-> /tmp/crontab.6rzvXr/crontab
-	"	50	0
-	^	50	1
-	.	50	0
-	+	50	0
-
-> /tmp/crontab.f3w3XS/crontab
-	"	53	0
-	^	52	12
-	.	52	11
-	+	21	10
-	+	22	10
-	+	18	10
-	+	22	0
-	+	19	0
-	+	21	8
-	+	22	0
-	+	21	10
-	+	22	10
-	+	21	2
-	+	22	2
-	+	17	10
-	+	44	10
-	+	46	11
-	+	43	0
+> /tmp/crontab.JMWWJO/crontab
+	"	46	2
+	^	45	3
+	.	45	2
+	+	25	3
 	+	44	2
-	+	43	2
-	+	44	10
-	+	46	0
-	+	44	0
-	+	45	0
-	+	52	11
-	+	21	8
-	+	22	8
-	+	21	10
-	+	22	10
-	+	21	8
-	+	22	8
-	+	21	10
-	+	22	10
-	+	44	10
-	+	45	10
-	+	52	11
+	+	45	2
 
-> /tmp/crontab.Tsqi86/crontab
-	"	49	11
-	^	49	12
-	.	49	11
-	+	48	10
-	+	48	11
-	+	48	10
-	+	48	0
-	+	48	0
-	+	48	0
-	+	47	0
-	+	48	0
-	+	49	0
-	+	47	8
-	+	49	11
+> /tmp/crontab.2WuM3c/crontab
+	"	20	46
+	^	21	47
+	.	21	46
+	+	21	46
 
-> /tmp/crontab.YZ6161/crontab
-	"	53	3
-	^	53	4
-	.	53	3
-	+	26	4
-	+	27	4
-	+	28	4
-	+	35	4
-	+	43	4
-	+	53	3
+> /tmp/crontab.6haQVV/crontab
+	"	23	1
+	^	23	2
+	.	23	1
+	+	24	0
+	+	23	1
 
-> /tmp/crontab.vkagS6/crontab
-	"	28	1
-	^	28	2
-	.	28	1
-	+	25	1
-	+	26	1
-	+	28	1
-
-> /tmp/crontab.pHHXkS/crontab
-	"	1	0
-
-> /tmp/crontab.ijiKxn/crontab
-	"	47	0
-	.	47	0
-	+	47	0
-
-> /tmp/crontab.fOTXeb/crontab
-	"	47	0
-	^	47	1
-	.	47	0
-	+	47	0
-
-> /tmp/crontab.Yzn33p/crontab
-	"	20	2
-	^	20	3
-	.	20	2
-	+	41	2
-	+	19	2
-	+	20	2
-
-> /tmp/crontab.u7kG2q/crontab
-	"	17	15
-	^	17	16
-	.	17	15
-	+	17	15
-
-> /tmp/crontab.N9lcqJ/crontab
-	"	42	0
-	^	41	2
-	.	41	5
-	+	41	5
-
-> /tmp/crontab.LDxCWl/crontab
-	"	52	0
-	^	43	5
-	.	43	4
-	+	25	4
-	+	28	4
-	+	35	4
-	+	43	4
-
-> /tmp/crontab.D3JyhH/crontab
-	"	1	0
-
-> ~/.muttrc
-	"	33	0
-
-> /tmp/crontab.RHKJZ5/crontab
-	"	20	2
-	^	20	3
-	.	20	2
-	+	19	2
-	+	20	2
-
-> /tmp/crontab.4rG9BP/crontab
-	"	24	2
-	^	24	3
-	.	24	2
-	+	37	2
-	+	35	3
-	+	37	2
-	+	43	0
-	+	42	2
-	+	52	2
-	+	53	3
-	+	42	1
-	+	35	0
-	+	26	3
-	+	27	3
-	+	28	3
+> /tmp/crontab.bgOxhP/crontab
+	"	20	0
+	^	26	1
+	.	26	0
+	+	19	162
+	+	21	0
+	+	20	44
+	+	19	0
 	+	25	0
 	+	26	0
-	+	27	0
-	+	28	0
-	+	21	2
-	+	22	2
-	+	23	2
-	+	24	2
 
-> ~/bin/files_find_by_age.sh
-	"	12	34
-	^	12	35
-	.	12	34
-	+	20	5
-	+	12	34
+> /tmp/crontab.gfPDnO/crontab
+	"	5	0
 
-> ~/bin/clean.sh
-	"	6555	0
-	.	6556	0
-	+	1	0
-	+	6556	0
+> /tmp/crontab.PZpZ6o/crontab
+	"	38	0
+	.	20	0
+	+	20	0
 
-> /tmp/crontab.Jv7d5C/crontab
-	"	35	0
+> ~/bin/manage_pps.py
+	"	9	13
+	^	32	14
+	.	32	13
+	+	11	1
+	+	32	13
 
-> /tmp/crontab.3zmy3c/crontab
+> ~/bin/libPython/lib_snmp.py
+	"	22	0
+	^	21	10
+	.	21	9
+	+	23	0
+	+	77	0
+	+	71	34
+	+	20	9
+	+	21	9
+
+> /tmp/crontab.O16NOO/crontab
+	"	38	0
+	.	23	0
+	+	20	30
+	+	21	30
+	+	22	30
+	+	23	0
+
+> /etc/nginx/sites-available/devices
+	"	30	1
+	^	10	1
+	.	30	1
+	+	3	22
+	+	14	41
+	+	15	33
+	+	12	25
+	+	2	19
+	+	21	11
+	+	22	32
+	+	10	0
+	+	30	1
+
+> /tmp/crontab.BWL5MP/crontab
+	"	43	0
+	.	47	0
+	+	49	0
+	+	47	0
+
+> /django/django_home/devices/tasks.py
+	"	5	0
+	^	72	22
+	.	2	0
+	+	30	12
+	+	55	12
+	+	85	26
+	+	88	24
+	+	30	17
+	+	55	17
+	+	60	0
+	+	15	22
+	+	16	0
+	+	14	13
+	+	14	23
+	+	108	19
+	+	108	16
+	+	14	0
+	+	16	0
+	+	14	0
+	+	15	0
+	+	16	13
+	+	17	13
+	+	18	13
+	+	19	34
+	+	29	17
+	+	34	42
+	+	29	17
+	+	20	19
+	+	18	9
+	+	108	14
+	+	108	22
+	+	96	0
+	+	94	0
+	+	107	0
+	+	100	9
+	+	106	18
+	+	100	13
+	+	108	29
+	+	108	9
+	+	108	0
+	+	108	7
+	+	108	0
+	+	108	11
+	+	108	8
+	+	108	0
+	+	108	0
+	+	108	0
+	+	105	7
+	+	106	13
+	+	106	22
+	+	95	0
+	+	14	0
+	+	27	17
+	+	41	21
+	+	39	25
+	+	41	26
+	+	39	21
+	+	35	29
+	+	34	20
+	+	28	19
+	+	41	31
+	+	40	0
+	+	41	8
+	+	35	35
+	+	50	15
+	+	49	17
+	+	57	21
+	+	58	20
+	+	55	0
+	+	51	0
+	+	52	43
+	+	55	52
+	+	53	35
+	+	55	56
+	+	12	33
+	+	53	48
+	+	87	0
+	+	92	16
+	+	93	18
+	+	34	27
+	+	13	38
+	+	34	42
+	+	106	0
+	+	68	23
+	+	70	24
+	+	69	68
+	+	65	9
+	+	71	10
+	+	70	31
+	+	72	33
+	+	74	21
+	+	75	8
+	+	76	7
+	+	77	11
+	+	79	13
+	+	80	16
+	+	7	14
+	+	71	11
+	+	72	21
+	+	108	0
+	+	107	0
+	+	3	0
+	+	2	0
+
+> ~/.bash
 	"	1	0
 
-> /tmp/crontab.hSK9Be/crontab
-	"	44	3
-	^	44	4
-	.	44	3
-	+	44	3
+> /tmp/crontab.FPSLM8/crontab
+	"	41	0
 
-> /tmp/crontab.t8HSfz/crontab
-	"	53	2
-	^	52	3
-	.	52	2
-	+	51	2
-	+	52	2
+> /tmp/crontab.MKtMZb/crontab
+	"	31	0
+	^	32	0
+	.	32	0
+	+	33	0
+	+	32	0
 
-> /tmp/crontab.RJiO6q/crontab
+> /tmp/crontab.tUQVMi/crontab
+	"	33	56
+	^	33	57
+	.	33	56
+	+	20	0
+	+	22	59
+	+	23	58
+	+	26	67
+	+	27	55
+	+	28	58
+	+	29	59
+	+	30	49
+	+	31	58
+	+	30	58
+	+	38	50
+	+	39	59
+	+	38	59
+	+	32	52
+	+	33	56
+
+> /etc/supervisor/conf.d/devices.conf
+	"	3	17
+	^	1	18
+	.	1	17
+	+	2	50
+	+	3	13
+	+	5	1
+	+	8	43
+	+	9	43
+	+	1	17
+
+> /etc/supervisor/conf.d/devices_tasks.conf
+	"	9	50
+	^	9	51
+	.	9	50
+	+	1	21
+	+	2	55
+	+	8	49
+	+	9	50
+
+> /django/django_home/run.sh
+	"	3	38
+	^	3	39
+	.	3	38
+	+	3	0
+	+	2	0
+	+	3	44
+	+	2	0
+	+	3	38
+
+> /tmp/crontab.wB2TJ5/crontab
 	"	1	0
 
-> /tmp/crontab.MvTait/crontab
-	"	30	0
-	^	30	1
-	.	30	0
-	+	44	0
-	+	30	0
+> /django/django_home/devices/urls
+	"	1	0
+
+> /django/django_home/devices/2
+	"	1	0
+
+> ~/.vimrc
+	"	638	33
+
+> ~/.spf13-vim-3/.vim/bundle/vim-flake8/vim-flake8.vim
+	"	250	0
+	^	250	0
+	.	249	16
+	+	249	16
+
+> ~/.spf13-vim-3/.git/MERGE_MSG
+	"	1	0
+
+> /tmp/crontab.GuntRL/crontab
+	"	1	0
+
+> /tmp/crontab.CA7JiO/crontab
+	"	20	0
+
+> /tmp/crontab.Cgwrm7/crontab
+	"	25	4
+	^	25	5
+	.	25	4
+	+	25	4
+
+> /tmp/crontab.GNYBsE/crontab
+	"	25	4
+	^	25	5
+	.	25	4
+	+	25	4
